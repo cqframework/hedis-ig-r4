@@ -1,0 +1,89 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/v2/0360/2.7",
+      "concept" : [{
+        "code" : "CRN",
+        "display" : "Certified Registered Nurse"
+      },
+      {
+        "code" : "CNP",
+        "display" : "Certified Nurse Practitioner"
+      },
+      {
+        "code" : "DO",
+        "display" : "Doctor of Osteopathy"
+      },
+      {
+        "code" : "MD",
+        "display" : "Doctor of Medicine"
+      },
+      {
+        "code" : "NP",
+        "display" : "Nurse Practitioner"
+      },
+      {
+        "code" : "RN",
+        "display" : "Registered Nurse"
+      },
+      {
+        "code" : "PharmD",
+        "display" : "Doctor of Pharmacy"
+      },
+      {
+        "code" : "RPH",
+        "display" : "Registered Pharmacist"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://hl7.org/fhir/v2/0360/2.7"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/v2/0360/2.7",
+      "concept" : [{
+        "code" : "CRN",
+        "display" : "Certified Registered Nurse"
+      },
+      {
+        "code" : "CNP",
+        "display" : "Certified Nurse Practitioner"
+      },
+      {
+        "code" : "DO",
+        "display" : "Doctor of Osteopathy"
+      },
+      {
+        "code" : "MD",
+        "display" : "Doctor of Medicine"
+      },
+      {
+        "code" : "NP",
+        "display" : "Nurse Practitioner"
+      },
+      {
+        "code" : "RN",
+        "display" : "Registered Nurse"
+      },
+      {
+        "code" : "PharmD",
+        "display" : "Doctor of Pharmacy"
+      },
+      {
+        "code" : "RPH",
+        "display" : "Registered Pharmacist"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://hl7.org/fhir/v2/0360/2.7"
+}
+-------------------------------------------------------------------------------------

@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/v2/0203",
+  "code" : "MR"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://hl7.org/fhir/v2/0203\" is not known (encountered paired with code = \"MR\"); The code provided (http://hl7.org/fhir/v2/0203#MR) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------

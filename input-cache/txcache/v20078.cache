@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/v2/0078",
+  "code" : "L"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://hl7.org/fhir/v2/0078\" is not known (encountered paired with code = \"L\"); The code provided (http://hl7.org/fhir/v2/0078#L) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/v2/0078",
+  "code" : "N"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://hl7.org/fhir/v2/0078\" is not known (encountered paired with code = \"N\"); The code provided (http://hl7.org/fhir/v2/0078#N) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
