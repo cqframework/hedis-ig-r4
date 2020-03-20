@@ -4,10 +4,10 @@ using FHIR version '4.0.0'
 
 include FHIRHelpers version '4.0.0' called FHIRHelpers
 
-valueset "NCQA Payer": 'http://ncqa.org/fhir/hedis/ValueSet/ncqa-payer' //'urn:oid:2.16.840.1.113762.1.4.1165.42'
-valueset "Commercial": 'http://ncqa.org/hedis/ValueSet/2.16.840.1.113762.1.4.1165.46'
-valueset "Medicaid": 'http://ncqa.org/hedis/ValueSet/2.16.840.1.113762.1.4.1165.45'
-valueset "Medicare": 'http://ncqa.org/hedis/ValueSet/2.16.840.1.113762.1.4.1165.44'
+//valueset "NCQA Payer": 'http://ncqa.org/fhir/hedis/ValueSet/ncqa-payer' //'urn:oid:2.16.840.1.113762.1.4.1165.42'
+//valueset "Commercial": 'http://ncqa.org/hedis/ValueSet/2.16.840.1.113762.1.4.1165.46'
+//valueset "Medicaid": 'http://ncqa.org/hedis/ValueSet/2.16.840.1.113762.1.4.1165.45'
+//valueset "Medicare": 'http://ncqa.org/hedis/ValueSet/2.16.840.1.113762.1.4.1165.44'
 
 context Patient
 
@@ -65,17 +65,17 @@ define function "Is Enrolled"(ProductLine String, IndexDate DateTime, Participat
 Returns all Commercial, Medicaid, and Medicare participation for the patient
 */
 define "Participation":
-  ["Coverage": type in "Commercial"]
-	  union ["Coverage": type in "Medicaid"]
-		union ["Coverage": type in "Medicare"]
+  ["Coverage"/*: type in "Commercial"*/]
+	  union ["Coverage"/*: type in "Medicaid"*/]
+		union ["Coverage"/*: type in "Medicare"*/]
 
 define function "Is Enrolled On Date"(ProductLine String, IndexDate DateTime):
   exists (
 		(
 			case ProductLine
-			  when "Commercial Product" then ["Coverage": type in "Commercial"]
-				when "Medicare Product" then ["Coverage": type in "Medicare"]
-				when "Medicaid Product" then ["Coverage": type in "Medicaid"]
+			  when "Commercial Product" then ["Coverage"/*: type in "Commercial"*/]
+				when "Medicare Product" then ["Coverage"/*: type in "Medicare"*/]
+				when "Medicaid Product" then ["Coverage"/*: type in "Medicaid"*/]
 				else null
 			end
 		) P

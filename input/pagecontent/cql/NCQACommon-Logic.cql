@@ -12,11 +12,11 @@ codesystem "SNOMEDCT:2016-03": 'http://snomed.info/sct/731000124108' version 'ht
 valueset "Encounter Inpatient": 'http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.666.5.307'
 valueset "Hospice care ambulatory": 'http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1108.15'
 valueset "Care Services in Long-Term Residential Facility": 'http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.101.12.1014'
-valueset "NCQA Payer": 'http://ncqa.org/hedis/ValueSet/2.16.840.1.113762.1.4.1165.42'
-valueset "X Institutional SNP Value Set": 'http://ncqa.org/hedis/ValueSet/2.16.840.1.113762.1.4.1165.43'
-valueset "Medicare": 'http://ncqa.org/hedis/ValueSet/2.16.840.1.113762.1.4.1165.44'
-valueset "Medicaid": 'http://ncqa.org/hedis/ValueSet/2.16.840.1.113762.1.4.1165.45'
-valueset "Commercial": 'http://ncqa.org/hedis/ValueSet/2.16.840.1.113762.1.4.1165.46'
+//valueset "NCQA Payer": 'http://ncqa.org/hedis/ValueSet/2.16.840.1.113762.1.4.1165.42'
+//valueset "X Institutional SNP Value Set": 'http://ncqa.org/hedis/ValueSet/2.16.840.1.113762.1.4.1165.43'
+//valueset "Medicare": 'http://ncqa.org/hedis/ValueSet/2.16.840.1.113762.1.4.1165.44'
+//valueset "Medicaid": 'http://ncqa.org/hedis/ValueSet/2.16.840.1.113762.1.4.1165.45'
+//valueset "Commercial": 'http://ncqa.org/hedis/ValueSet/2.16.840.1.113762.1.4.1165.46'
 
 
 code "Birthdate": '21112-8' from "LOINC" display 'Birthdate'
@@ -32,7 +32,7 @@ parameter "Measurement Period" Interval<DateTime>
 context Patient
 
 define "Is Enrolled in Institutional SNP":
-  exists ( ["Encounter": "X Institutional SNP Value Set"] SNP
+  exists ( ["Encounter"/*: "X Institutional SNP Value Set"*/] SNP
       where SNP.status in { 'in-progress', 'finished' }
         and SNP.period overlaps "Measurement Period"
   )

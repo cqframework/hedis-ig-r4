@@ -21,12 +21,12 @@ context Patient
 
 define "Encounters Ending Before December 2nd":
   [Encounter: Common."Encounter Inpatient"] E1
-    where E1.status ~ 'Finished'
+    where E1.status ~ 'finished'
      and E1.period ends during Interval[start of "Measurement Period", end of "Measurement Period" - 30 days]
 
 define "Encounters in Measurement Period":
   [Encounter: Common."Encounter Inpatient"] E2
-    where E2.status ~ 'Finished'
+    where E2.status ~ 'finished'
      and E2.period ends during Interval[start of "Measurement Period", end of "Measurement Period"]
 
 // Consider expressing this using a without, since in the case that there is no encounter after E1, this won't return
@@ -66,3 +66,5 @@ define Numerator:
   "Encounters without 30 Day Readmission" E
    where exists (Tasks T where T.executionPeriod during Interval[E.period."end", E.period."end" + 30 days])
      or exists (Observations O where O.effective as dateTime during Interval[E.period."end", E.period."end" + 30 days])
+
+define "Denominator Exclusion": false
