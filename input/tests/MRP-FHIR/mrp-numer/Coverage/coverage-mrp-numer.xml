@@ -1,7 +1,7 @@
 <Coverage
   xmlns="http://hl7.org/fhir"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <id value="mrp-in"/>
+  <id value="mrp-numer"/>
   <text>
     <status value="generated"/>
   </text>
@@ -18,13 +18,13 @@
     </coding>
   </type>
   <policyHolder>
-    <reference value="Patient/mrp-in"/>
+    <reference value="Patient/mrp-numer"/>
   </policyHolder>
   <subscriber>
-    <reference value="Patient/mrp-in"/>
+    <reference value="Patient/mrp-numer"/>
   </subscriber>
   <beneficiary>
-    <reference value="Patient/mrp-in"/>
+    <reference value="Patient/mrp-numer"/>
   </beneficiary>
   <relationship>
     <coding>

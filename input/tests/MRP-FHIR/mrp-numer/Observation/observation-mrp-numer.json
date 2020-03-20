@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "mrp-in",
+  "id": "mrp-numer",
   "status": "final",
   "code": {
     "coding": [
@@ -11,10 +11,10 @@
     ]
   },
   "subject": {
-    "reference": "Patient/mrp-in"
+    "reference": "Patient/mrp-numer"
   },
   "performer": {
-    "reference": "Practitioner/mrp-in"
+    "reference": "Practitioner/mrp-numer"
   },
   "effectiveDateTime": "2018-12-02T14:19:00-04:00",
   "valueQuantity": {

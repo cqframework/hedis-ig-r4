@@ -1,12 +1,12 @@
 {
   "resourceType": "Bundle",
-  "id": "tests-mrp-in-bundle",
+  "id": "tests-mrp-denom-bundle",
   "type": "transaction",
   "entry": [
     {
       "resource": {
         "resourceType": "Coverage",
-        "id": "mrp-in",
+        "id": "mrp-denom",
         "text": {
           "status": "generated"
         },
@@ -27,13 +27,13 @@
           ]
         },
         "policyHolder": {
-          "reference": "Patient/mrp-in"
+          "reference": "Patient/mrp-denom"
         },
         "subscriber": {
-          "reference": "Patient/mrp-in"
+          "reference": "Patient/mrp-denom"
         },
         "beneficiary": {
-          "reference": "Patient/mrp-in"
+          "reference": "Patient/mrp-denom"
         },
         "dependent": "0",
         "relationship": {
@@ -130,13 +130,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Coverage/mrp-in"
+        "url": "Coverage/mrp-denom"
       }
     },
     {
       "resource": {
         "resourceType": "Encounter",
-        "id": "mrp-in-e1",
+        "id": "mrp-denom-e1",
         "status": "finished",
         "class": {
           "system": "http://hl7.org/fhir/v3/ActCode",
@@ -155,7 +155,7 @@
           }
         ],
         "subject": {
-          "reference": "Patient/mrp-in",
+          "reference": "Patient/mrp-denom",
           "display": "Eve Veronica Everywoman"
         },
         "participant": [
@@ -165,7 +165,7 @@
               "end": "2018-09-30T14:19:00-04:00"
             },
             "individual": {
-              "reference": "Practitioner/mrp-in",
+              "reference": "Practitioner/mrp-denom",
               "display": "Stanley Jason Garrett MD"
             }
           }
@@ -200,13 +200,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Encounter/mrp-in-e1"
+        "url": "Encounter/mrp-denom-e1"
       }
     },
     {
       "resource": {
         "resourceType": "Encounter",
-        "id": "mrp-in-e2",
+        "id": "mrp-denom-e2",
         "status": "finished",
         "class": {
           "system": "http://hl7.org/fhir/v3/ActCode",
@@ -225,7 +225,7 @@
           }
         ],
         "subject": {
-          "reference": "Patient/mrp-in",
+          "reference": "Patient/mrp-denom",
           "display": "Eve Veronica Everywoman"
         },
         "participant": [
@@ -235,7 +235,7 @@
               "end": "2018-11-30T14:19:00-04:00"
             },
             "individual": {
-              "reference": "Practitioner/mrp-in",
+              "reference": "Practitioner/mrp-denom",
               "display": "Stanley Jason Garrett MD"
             }
           }
@@ -270,44 +270,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Encounter/mrp-in-e2"
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Observation",
-        "id": "mrp-in",
-        "status": "final",
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "430193006"
-            }
-          ]
-        },
-        "subject": {
-          "reference": "Patient/mrp-in"
-        },
-        "effectiveDateTime": "2018-12-02T14:19:00-04:00",
-        "performer": [
-          {
-            "reference": "Practitioner/mrp-in"
-          }
-        ],
-        "valueQuantity": {
-          "value": 5.0
-        }
-      },
-      "request": {
-        "method": "PUT",
-        "url": "Observation/mrp-in"
+        "url": "Encounter/mrp-denom-e2"
       }
     },
     {
       "resource": {
         "resourceType": "Patient",
-        "id": "mrp-in",
+        "id": "mrp-denom",
         "extension": [
           {
             "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
@@ -403,13 +372,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Patient/mrp-in"
+        "url": "Patient/mrp-denom"
       }
     },
     {
       "resource": {
         "resourceType": "Practitioner",
-        "id": "mrp-in",
+        "id": "mrp-denom",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2019-12-06T14:24:16.298-07:00"
@@ -503,7 +472,7 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Practitioner/mrp-in/_history/1"
+        "url": "Practitioner/mrp-denom/_history/1"
       }
     }
   ]

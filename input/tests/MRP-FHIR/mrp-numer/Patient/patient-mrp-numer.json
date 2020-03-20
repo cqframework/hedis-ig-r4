@@ -1,6 +1,6 @@
 {
   "resourceType": "Patient",
-  "id": "mrp-in",
+  "id": "mrp-numer",
   "extension": [
     {
       "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
