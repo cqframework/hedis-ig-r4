@@ -1,70 +1,8 @@
 -------------------------------------------------------------------------------------
-{"code" : {
-  "code" : "application/elm+xml"
-}, "valueSet" :{
+{"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
     "include" : [{
-      "system" : "urn:ietf:bcp:13"
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "application/elm+xml",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "code" : "text/cql"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "urn:ietf:bcp:13"
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "text/cql",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "code" : "proportion"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code system \"\" is not known (encountered paired with code = \"proportion\"); The code provided (#proportion) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "code" : "process"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code system \"\" is not known (encountered paired with code = \"process\"); The code provided (#process) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "version" : "2019-03",
-      "concept" : [{
-        "code" : "209099002",
-        "display" : "History and physical examination with management of domiciliary or rest home patient (procedure)"
-      },
-      {
-        "code" : "210098006",
-        "display" : "Domiciliary or rest home patient evaluation and management (procedure)"
-      }]
-    },
-    {
       "system" : "http://www.ama-assn.org/go/cpt",
       "version" : "2019",
       "concept" : [{
@@ -107,6 +45,6 @@ v: {
   }
 }}####
 e: {
-  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2019-03"
+  "error" : "Error from server: Unable to provide support for code system http://www.ama-assn.org/go/cpt"
 }
 -------------------------------------------------------------------------------------

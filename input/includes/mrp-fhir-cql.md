@@ -1,1 +1,1 @@
-{% highlight sql %}{% include_relative cql/mrp-fhir.cql %}{% endhighlight %}
+{% highlight sql %}{% include_relative cql/MRP-FHIR.cql %}{% endhighlight %}

@@ -55,6 +55,10 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on SNOMED CT International edition 09-Mar 2020</p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-430193006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=430193006\">430193006</a></td><td>Medication Reconciliation (procedure)</td><td/></tr></table></div>"
+  },
   "status" : "active",
   "expansion" : {
     "identifier" : "urn:uuid:295a3681-5b9b-419e-8566-0ea764735bcc",
@@ -160,5 +164,139 @@ v: {
   "display" : "Systolic blood pressure",
   "severity" : null,
   "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "2018-03",
+      "concept" : [{
+        "code" : "183452005",
+        "display" : "Emergency hospital admission (procedure)"
+      },
+      {
+        "code" : "32485007",
+        "display" : "Hospital admission (procedure)"
+      },
+      {
+        "code" : "8715000",
+        "display" : "Hospital admission, elective (procedure)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2018-03"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "2019-03",
+      "concept" : [{
+        "code" : "209099002",
+        "display" : "History and physical examination with management of domiciliary or rest home patient (procedure)"
+      },
+      {
+        "code" : "210098006",
+        "display" : "Domiciliary or rest home patient evaluation and management (procedure)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2019-03"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "2018-03",
+      "concept" : [{
+        "code" : "385763009",
+        "display" : "Hospice care (regime/therapy)"
+      },
+      {
+        "code" : "385765002",
+        "display" : "Hospice care management (procedure)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2018-03"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "2018-03",
+      "concept" : [{
+        "code" : "183452005",
+        "display" : "Emergency hospital admission (procedure)"
+      },
+      {
+        "code" : "32485007",
+        "display" : "Hospital admission (procedure)"
+      },
+      {
+        "code" : "8715000",
+        "display" : "Hospital admission, elective (procedure)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2018-03"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "2019-03",
+      "concept" : [{
+        "code" : "209099002",
+        "display" : "History and physical examination with management of domiciliary or rest home patient (procedure)"
+      },
+      {
+        "code" : "210098006",
+        "display" : "Domiciliary or rest home patient evaluation and management (procedure)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2019-03"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "2018-03",
+      "concept" : [{
+        "code" : "385763009",
+        "display" : "Hospice care (regime/therapy)"
+      },
+      {
+        "code" : "385765002",
+        "display" : "Hospice care management (procedure)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2018-03"
 }
 -------------------------------------------------------------------------------------
