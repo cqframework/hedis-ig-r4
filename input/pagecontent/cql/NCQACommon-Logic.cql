@@ -27,7 +27,7 @@ code "Long term care hospital (environment)": '32074000' from "SNOMEDCT:2016-03"
 code "Patient transfer, to another health care facility (procedure)": '19712007' from "SNOMEDCT:2016-03" display 'Patient transfer, to another health care facility (procedure)'
 code "Referral to long term care service (procedure)": '417708006' from "SNOMEDCT:2016-03" display 'Referral to long term care service (procedure)'
 
-parameter "Measurement Period" Interval<DateTime>
+parameter "Measurement Period" default Interval[@2019-01-01T00:00, @2020-01-01T00:00)
 
 context Patient
 
