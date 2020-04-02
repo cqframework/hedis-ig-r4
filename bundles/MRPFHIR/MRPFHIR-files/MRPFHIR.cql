@@ -29,11 +29,13 @@ define "Encounters in Measurement Period":
     where E2.status ~ 'finished'
      and E2.period ends during Interval[start of "Measurement Period", end of "Measurement Period"]
 
-// Consider expressing this using a without, since in the case that there is no encounter after E1, this won't return
 define "Encounters without 30 Day Readmission":
 	"Encounters Ending Before December 2nd" E1
-	   with "Encounters in Measurement Period" E2
-	   such that difference in days between start of E2.period and start of E1.period > 30
+    where not exists(
+      "Encounters in Measurement Period" E2
+        where difference in days between end of E1.period and start of E2.period < 30
+        and end of E1.period < start of E2.period
+    )
 
 define "Initial Population":
   "Encounters without 30 Day Readmission" E
@@ -62,6 +64,7 @@ define Observations:
     such that O.status in { 'final', 'amended', 'corrected' }
       and exists (O.performer OP where EndsWith(OP.reference, P.id))
 
+//note: consider requiring that the med rec occured on the subsequent visit
 define Numerator:
   "Encounters without 30 Day Readmission" E
    where exists (Tasks T where T.executionPeriod during Interval[E.period."end", E.period."end" + 30 days])

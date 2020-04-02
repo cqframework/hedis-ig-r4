@@ -7,9 +7,6 @@
       "resource": {
         "resourceType": "Coverage",
         "id": "mrp-numer",
-        "text": {
-          "status": "generated"
-        },
         "identifier": [
           {
             "system": "http://benefitsinc.com/certificate",
