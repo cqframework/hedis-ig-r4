@@ -468,7 +468,7 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Practitioner/mrp-out/_history/1"
+        "url": "Practitioner/mrp-out"
       }
     }
   ]

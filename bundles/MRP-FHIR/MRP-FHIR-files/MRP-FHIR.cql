@@ -15,7 +15,7 @@ include Participation_Logic version '1.0.0' called Participation
 valueset "Valid Medication Reconciliation Performer Qualifications": 'http://ncqa.org/fhir/hedis/ValueSet/hedis-med-rec-practitioner'
 valueset "Medication Reconciliation Value Set": 'http://ncqa.org/fhir/hedis/ValueSet/hedismedrecvalueset' // HEDIS IG
 
-parameter "Measurement Period" default Interval[@2018-01-01T00:00, @2019-01-01T00:00)
+parameter "Measurement Period" default Interval[@2019-01-01T00:00, @2020-01-01T00:00)
 
 context Patient
 
