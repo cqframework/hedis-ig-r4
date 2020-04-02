@@ -1,4 +1,4 @@
-library MRP_FHIR version '1.0.000'
+library MRPFHIR version '1.0.000'
 
 /*
 Medication reconciliation postdischarge (MRP)
@@ -7,8 +7,8 @@ Medication reconciliation postdischarge (MRP)
 using FHIR version '4.0.0'
 
 include FHIRHelpers version '4.0.0' called FHIRHelpers
-include NCQACommon_Logic version '3.10.000' called Common
-include Participation_Logic version '1.0.0' called Participation
+include NCQACommonLogic version '3.10.000' called Common
+include ParticipationLogic version '1.0.0' called Participation
 
 // Prescribing Practitioner, Clinical Pharmacist or Registered Nurse
 // http://hl7.org/fhir/v2/0360/2.7/index.html { CANP, CNP, CNM, CNS, CRN, DO, MD, NP, PharmD, RN, RPH, PA, FPNP, PN }

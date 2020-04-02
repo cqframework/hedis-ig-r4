@@ -1,4 +1,4 @@
-library NCQACommon_Logic version '3.10.000'
+library NCQACommonLogic version '3.10.000'
 
 using FHIR version '4.0.0'
 

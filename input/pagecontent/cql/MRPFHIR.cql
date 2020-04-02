@@ -1,0 +1,70 @@
+library MRPFHIR version '1.0.000'
+
+/*
+Medication reconciliation postdischarge (MRP)
+*/
+
+using FHIR version '4.0.0'
+
+include FHIRHelpers version '4.0.0' called FHIRHelpers
+include NCQACommonLogic version '3.10.000' called Common
+include ParticipationLogic version '1.0.0' called Participation
+
+// Prescribing Practitioner, Clinical Pharmacist or Registered Nurse
+// http://hl7.org/fhir/v2/0360/2.7/index.html { CANP, CNP, CNM, CNS, CRN, DO, MD, NP, PharmD, RN, RPH, PA, FPNP, PN }
+valueset "Valid Medication Reconciliation Performer Qualifications": 'http://ncqa.org/fhir/hedis/ValueSet/hedis-med-rec-practitioner'
+valueset "Medication Reconciliation Value Set": 'http://ncqa.org/fhir/hedis/ValueSet/hedismedrecvalueset' // HEDIS IG
+
+parameter "Measurement Period" default Interval[@2019-01-01T00:00, @2020-01-01T00:00)
+
+context Patient
+
+define "Encounters Ending Before December 2nd":
+  [Encounter: Common."Encounter Inpatient"] E1
+    where E1.status ~ 'finished'
+     and E1.period ends during Interval[start of "Measurement Period", end of "Measurement Period" - 30 days]
+
+define "Encounters in Measurement Period":
+  [Encounter: Common."Encounter Inpatient"] E2
+    where E2.status ~ 'finished'
+     and E2.period ends during Interval[start of "Measurement Period", end of "Measurement Period"]
+
+// Consider expressing this using a without, since in the case that there is no encounter after E1, this won't return
+define "Encounters without 30 Day Readmission":
+	"Encounters Ending Before December 2nd" E1
+	   with "Encounters in Measurement Period" E2
+	   such that difference in days between start of E2.period and start of E1.period > 30
+
+define "Initial Population":
+  "Encounters without 30 Day Readmission" E
+    where AgeInYearsAt(end of "Measurement Period") >= 18
+    and Participation."Is Enrolled"(Participation."Medicare Product",
+		  end of E.period + 30 days, Interval[start of E.period, end of E.period + 30 days], 0)
+		and not Common."Has Hospice"
+
+define Denominator:
+  "Initial Population"
+
+define Practitioners:
+  [Practitioner] P
+    where P.active //This indicates the practitioner record was not created in error
+      and exists (P.qualification Q where Q.code in "Valid Medication Reconciliation Performer Qualifications") //Practitioner is qualified to reconcile medications
+
+define Tasks:
+  [Task: "Medication Reconciliation Value Set"] T
+    where T.intent = 'order'
+      and T.status = 'completed'
+      and exists (Practitioners P where EndsWith(T.owner.reference, P.id))
+
+define Observations:
+  [Observation:  "Medication Reconciliation Value Set"] O
+    with Practitioners P
+    such that O.status in { 'final', 'amended', 'corrected' }
+      and exists (O.performer OP where EndsWith(OP.reference, P.id))
+
+define Numerator:
+  "Encounters without 30 Day Readmission" E
+   where exists (Tasks T where T.executionPeriod during Interval[E.period."end", E.period."end" + 30 days])
+     or exists (Observations O where O.effective as dateTime during Interval[E.period."end", E.period."end" + 30 days])
+
+define "Denominator Exclusion": false

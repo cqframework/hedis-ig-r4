@@ -1,6 +1,6 @@
 {
   "resourceType":"Measure",
-  "id":"measure-mrp-fhir",
+  "id":"measure-mrpfhir",
   "url":"http://ncqa.org/fhir/hedis/Measure/measure-mrp-fhir",
   "identifier":[
     {
