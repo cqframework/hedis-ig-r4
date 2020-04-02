@@ -1,0 +1,346 @@
+{
+  "resourceType": "Bundle",
+  "id": "Agnes-Farley-Gibbs-3594-Encounter-2007",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Encounter/Encounter-2007",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "Encounter-2007",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "value": "2b7c75bd-7b49-4b29-b029-2b494d50b02a"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://hl7.org/fhir/encounter-class",
+          "code": "ambulatory",
+          "display": "Ambulatory"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://www.ama-assn.org/go/cpt",
+                "code": "99385",
+                "display": "Combined Office Visits"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/Patient-3594",
+          "display": "Agnes Farley Gibbs"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/v3/ParticipationType",
+                    "code": "ATND",
+                    "display": "attender"
+                  }
+                ]
+              }
+            ],
+            "period": {
+              "start": "2020-01-08T00:00:00-05:00",
+              "end": "2020-01-08T00:00:00-05:00"
+            },
+            "individual": {
+              "reference": "Practitioner/Practitioner-2108",
+              "display": "Marian Lorraine McCall DO"
+            }
+          }
+        ],
+        "period": {
+          "start": "2020-01-08T00:00:00-05:00",
+          "end": "2020-01-08T00:00:00-05:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/Location-419",
+              "display": "EMS Comprehensive Care"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "display": "EMS Comprehensive Care"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Encounter/Encounter-2007"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Procedure/Procedure-43465",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "Procedure-43465",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "52c00212-f47a-43ac-959e-9c3b0a950538"
+          }
+        ],
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "87620"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/Patient-3594",
+          "display": "Agnes Farley Gibbs"
+        },
+        "encounter": {
+          "reference": "Encounter/Encounter-2007",
+          "display": "Ambulatory_Encounter"
+        },
+        "performedPeriod": {
+          "start": "2020-01-08T00:00:00-05:00",
+          "end": "2020-01-08T00:00:00-05:00"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "Practitioner/Practitioner-2108",
+              "display": "Marian Lorraine McCall DO"
+            }
+          }
+        ],
+        "location": {
+          "reference": "Location/Location-419",
+          "display": "EMS Comprehensive Care"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Procedure/Procedure-43465"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Observation/Observation-43466",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Observation-43466",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "60ffb9df-9dad-453f-bab8-2c18f0d09703"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "exam",
+                "display": "Exam"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "289829007",
+              "display": "Normal uterine cervix (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/Patient-3594",
+          "display": "Agnes Farley Gibbs"
+        },
+        "encounter": {
+          "reference": "Encounter/Encounter-2007",
+          "display": "Ambulatory_Encounter"
+        },
+        "effectiveDateTime": "2020-01-08T00:00:00-05:00",
+        "performer": [
+          {
+            "reference": "Practitioner/Practitioner-2108",
+            "display": "Marian Lorraine McCall DO"
+          }
+        ],
+        "valueString": "NEGATIVE"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Observation/Observation-43466"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Observation/Observation-43467",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Observation-43467",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "3aca99a1-897e-4d9b-86d7-a518404c2591"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "exam",
+                "display": "Exam"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "439888000",
+              "display": "Abnormal cervical Papanicolaou smear (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/Patient-3594",
+          "display": "Agnes Farley Gibbs"
+        },
+        "encounter": {
+          "reference": "Encounter/Encounter-2007",
+          "display": "Ambulatory_Encounter"
+        },
+        "effectiveDateTime": "2020-01-08T00:00:00-05:00",
+        "performer": [
+          {
+            "reference": "Practitioner/Practitioner-2108",
+            "display": "Marian Lorraine McCall DO"
+          }
+        ],
+        "valueString": "POSITIVE"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Observation/Observation-43467"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/DiagnosticReport/DiagnosticReport-43468",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "DiagnosticReport-43468",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "46ceff86-c064-4c7e-9ff7-61d382dd07fc"
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "33717-0"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/Patient-3594",
+          "display": "Agnes Farley Gibbs"
+        },
+        "encounter": {
+          "reference": "Encounter/Encounter-2007",
+          "display": "Ambulatory_Encounter"
+        },
+        "effectivePeriod": {
+          "start": "2020-01-08T00:00:00-05:00",
+          "end": "2020-01-08T00:00:00-05:00"
+        },
+        "issued": "2020-01-08T00:00:00.000-05:00",
+        "performer": [
+          {
+            "reference": "Practitioner/Practitioner-2108",
+            "display": "Marian Lorraine McCall DO"
+          }
+        ],
+        "result": [
+          {
+            "reference": "Observation/Observation-43467",
+            "display": "Cervical_Cancer_Report_Observation_1"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/DiagnosticReport/DiagnosticReport-43468"
+      }
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "resourceType": "Bundle",
+  "id": "Ana-Judith-Williamson-3607-Encounter-1925",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Encounter/Encounter-1925",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "Encounter-1925",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "value": "41a29483-5b05-457e-83c1-6c4215175984"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://hl7.org/fhir/encounter-class",
+          "code": "ambulatory",
+          "display": "Ambulatory"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://www.ama-assn.org/go/cpt",
+                "code": "99213",
+                "display": "Combined Office Visits"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/Patient-3607",
+          "display": "Ana Judith Williamson"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/v3/ParticipationType",
+                    "code": "ATND",
+                    "display": "attender"
+                  }
+                ]
+              }
+            ],
+            "period": {
+              "start": "2020-01-08T00:00:00-05:00",
+              "end": "2020-01-08T00:09:00-05:00"
+            },
+            "individual": {
+              "reference": "Practitioner/Practitioner-2862",
+              "display": "Kristina Oconnell Bender MD"
+            }
+          }
+        ],
+        "period": {
+          "start": "2020-01-08T00:00:00-05:00",
+          "end": "2020-01-08T00:09:00-05:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/Location-393",
+              "display": "Windward General Hospital"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "display": "Windward General Hospital"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Encounter/Encounter-1925"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Procedure/Procedure-41626",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "Procedure-41626",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "0b89ae33-22e7-4b1d-8506-0bf98958d5e9"
+          }
+        ],
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "82274"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/Patient-3607",
+          "display": "Ana Judith Williamson"
+        },
+        "encounter": {
+          "reference": "Encounter/Encounter-1925",
+          "display": "Ambulatory_Encounter"
+        },
+        "performedPeriod": {
+          "start": "2020-01-08T00:00:00-05:00",
+          "end": "2020-01-08T00:09:00-05:00"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "Practitioner/Practitioner-2862",
+              "display": "Kristina Oconnell Bender MD"
+            }
+          }
+        ],
+        "location": {
+          "reference": "Location/Location-393",
+          "display": "Windward General Hospital"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Procedure/Procedure-41626"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Observation/Observation-41627",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Observation-41627",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "bdca983e-46e8-48ae-9536-251412332465"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "82274"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/Patient-3607",
+          "display": "Ana Judith Williamson"
+        },
+        "encounter": {
+          "reference": "Encounter/Encounter-1925",
+          "display": "Ambulatory_Encounter"
+        },
+        "effectiveDateTime": "2020-01-08T00:09:00-05:00",
+        "performer": [
+          {
+            "reference": "Practitioner/Practitioner-2862",
+            "display": "Kristina Oconnell Bender MD"
+          }
+        ],
+        "valueString": "NEGATIVE"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Observation/Observation-41627"
+      }
+    }
+  ]
+}

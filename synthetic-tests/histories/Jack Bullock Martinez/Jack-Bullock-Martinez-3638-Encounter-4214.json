@@ -1,0 +1,220 @@
+{
+  "resourceType": "Bundle",
+  "id": "Jack-Bullock-Martinez-3638-Encounter-4214",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Encounter/Encounter-4214",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "Encounter-4214",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "value": "93345011-a490-41c9-9007-a186b470b2b2"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://hl7.org/fhir/encounter-class",
+          "code": "outpatient",
+          "display": "Outpatient"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "428191000124101",
+                "display": "Documentation of current medications"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/Patient-3638",
+          "display": "Jack Bullock Martinez"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/v3/ParticipationType",
+                    "code": "ATND",
+                    "display": "attender"
+                  }
+                ]
+              }
+            ],
+            "period": {
+              "start": "2021-05-05T13:00:00-04:00",
+              "end": "2021-05-05T13:20:00-04:00"
+            },
+            "individual": {
+              "reference": "Practitioner/Practitioner-2864",
+              "display": "Alma Sampson Payne MD"
+            }
+          }
+        ],
+        "period": {
+          "start": "2021-05-05T13:00:00-04:00",
+          "end": "2021-05-05T13:20:00-04:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/Location-437",
+              "display": "Lansing Northside Urgent Care Center"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "display": "Lansing Northside Urgent Care Center"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Encounter/Encounter-4214"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Procedure/Procedure-88419",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "Procedure-88419",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "87d286b5-e756-4ac6-822c-1dc8d3077e78"
+          }
+        ],
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "430193006",
+              "display": "Medication Reconciliation (procedure)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/Patient-3638",
+          "display": "Jack Bullock Martinez"
+        },
+        "encounter": {
+          "reference": "Encounter/Encounter-4214",
+          "display": "Outpatient_Encounter"
+        },
+        "performedPeriod": {
+          "start": "2021-05-05T13:00:00-04:00",
+          "end": "2021-05-05T13:00:00-04:00"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "Practitioner/Practitioner-2864",
+              "display": "Alma Sampson Payne MD"
+            }
+          }
+        ],
+        "location": {
+          "reference": "Location/Location-437",
+          "display": "Lansing Northside Urgent Care Center"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Procedure/Procedure-88419"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Observation/Observation-88420",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Observation-88420",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "6677cf31-f9e6-4737-ba53-253f4fdb14db"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "procedure",
+                "display": "Procedure"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "430193006",
+              "display": "Medication Reconciliation (procedure)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/Patient-3638",
+          "display": "Jack Bullock Martinez"
+        },
+        "encounter": {
+          "reference": "Encounter/Encounter-4214",
+          "display": "Outpatient_Encounter"
+        },
+        "effectiveDateTime": "2021-05-05T13:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/Practitioner-2864",
+            "display": "Alma Sampson Payne MD"
+          }
+        ],
+        "valueString": "COMPLETED"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Observation/Observation-88420"
+      }
+    }
+  ]
+}

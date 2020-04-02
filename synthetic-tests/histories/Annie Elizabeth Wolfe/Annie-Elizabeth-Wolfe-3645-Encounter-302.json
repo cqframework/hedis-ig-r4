@@ -1,0 +1,296 @@
+{
+  "resourceType": "Bundle",
+  "id": "Annie-Elizabeth-Wolfe-3645-Encounter-302",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Encounter/Encounter-302",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "Encounter-302",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "value": "f10d35e5-dd0c-4d2e-890c-ee54dc88d583"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://hl7.org/fhir/encounter-class",
+          "code": "outpatient",
+          "display": "Outpatient"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "185345009",
+                "display": "Encounter for symptom"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/Patient-3645",
+          "display": "Annie Elizabeth Wolfe"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/v3/ParticipationType",
+                    "code": "ATND",
+                    "display": "attender"
+                  }
+                ]
+              }
+            ],
+            "period": {
+              "start": "2019-02-06T10:00:00-05:00",
+              "end": "2019-02-06T10:20:00-05:00"
+            },
+            "individual": {
+              "reference": "Practitioner/Practitioner-2110",
+              "display": "Ana Campbell Gross MD"
+            }
+          }
+        ],
+        "period": {
+          "start": "2019-02-06T10:00:00-05:00",
+          "end": "2019-02-06T10:20:00-05:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/Location-439",
+              "display": "Lansing Southside Urgent Care Center"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "display": "Lansing Southside Urgent Care Center"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Encounter/Encounter-302"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Observation/Observation-5107",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Observation-5107",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "6c9a4551-b481-424e-9c8c-ef4cbfd706c0"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "exam",
+                "display": "Exam"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "428181000124104",
+              "display": "Depression screening positive (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/Patient-3645",
+          "display": "Annie Elizabeth Wolfe"
+        },
+        "encounter": {
+          "reference": "Encounter/Encounter-302",
+          "display": "Wellness_Encounter"
+        },
+        "effectiveDateTime": "2019-02-06T10:00:00-05:00",
+        "performer": [
+          {
+            "reference": "Practitioner/Practitioner-2110",
+            "display": "Ana Campbell Gross MD"
+          }
+        ],
+        "valueString": "POSITIVE"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Observation/Observation-5107"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Condition/Condition-5108",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "Condition-5108",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "707838f0-9b90-4754-a6a9-b68f4971615c"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosi"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "310495003",
+              "display": "Mild depression (disorder)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/Patient-3645",
+          "display": "Annie Elizabeth Wolfe"
+        },
+        "encounter": {
+          "reference": "Encounter/Encounter-302",
+          "display": "Wellness_Encounter"
+        },
+        "onsetDateTime": "2019-02-06T10:00:00-05:00",
+        "abatementDateTime": "2019-03-05T00:00:00-05:00",
+        "recordedDate": "2019-02-06T10:00:00-05:00",
+        "asserter": {
+          "reference": "Practitioner/Practitioner-2110",
+          "display": "Ana Campbell Gross MD"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Condition/Condition-5108"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/DiagnosticReport/DiagnosticReport-5109",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "DiagnosticReport-5109",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "2edc7ada-b5e4-4a33-8d6b-a37a721545de"
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "310496002",
+              "display": "Moderate depression (disorder)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/Patient-3645",
+          "display": "Annie Elizabeth Wolfe"
+        },
+        "encounter": {
+          "reference": "Encounter/Encounter-302",
+          "display": "Wellness_Encounter"
+        },
+        "effectivePeriod": {
+          "start": "2019-02-06T10:00:00-05:00",
+          "end": "2019-02-06T10:00:00-05:00"
+        },
+        "issued": "2019-02-06T10:00:00.000-05:00",
+        "performer": [
+          {
+            "reference": "Practitioner/Practitioner-2110",
+            "display": "Ana Campbell Gross MD"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/DiagnosticReport/DiagnosticReport-5109"
+      }
+    }
+  ]
+}

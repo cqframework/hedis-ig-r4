@@ -1,0 +1,677 @@
+{
+  "resourceType": "Bundle",
+  "id": "Lois-Villanueva-Fox-3563-Encounter-1792",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Encounter/Encounter-1792",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "Encounter-1792",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "value": "0cc3d55e-0014-4b3c-ad1b-62be445a0d4c"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://hl7.org/fhir/encounter-class",
+          "code": "outpatient",
+          "display": "Outpatient"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "170258001",
+                "display": "Wellness Visit"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/Patient-3563",
+          "display": "Lois Villanueva Fox"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/v3/ParticipationType",
+                    "code": "ATND",
+                    "display": "attender"
+                  }
+                ]
+              }
+            ],
+            "period": {
+              "start": "2020-12-16T12:00:00-05:00",
+              "end": "2020-12-16T12:20:00-05:00"
+            },
+            "individual": {
+              "reference": "Practitioner/Practitioner-2108",
+              "display": "Marian Lorraine McCall DO"
+            }
+          }
+        ],
+        "period": {
+          "start": "2020-12-16T12:00:00-05:00",
+          "end": "2020-12-16T12:20:00-05:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/Location-438",
+              "display": "Lansing Westside Urgent Care Center"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "display": "Lansing Westside Urgent Care Center"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Encounter/Encounter-1792"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Immunization/Immunization-40314",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "Immunization-40314",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "4e1f216f-b565-4e57-b1f4-c5e435de54fb"
+          }
+        ],
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "20",
+              "display": "DTaP"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/Patient-3563",
+          "display": "Lois Villanueva Fox"
+        },
+        "recorded": "2020-12-16T12:00:00-05:00",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/Location-438",
+          "display": "Lansing Westside Urgent Care Center"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "Practitioner/Practitioner-2108",
+              "display": "Marian Lorraine McCall DO"
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Immunization/Immunization-40314"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Immunization/Immunization-40315",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "Immunization-40315",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "24ae7cee-eba0-43b2-b902-38b2deabfbe4"
+          }
+        ],
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "140",
+              "display": "Influenza, seasonal, injectable, preservative free"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/Patient-3563",
+          "display": "Lois Villanueva Fox"
+        },
+        "recorded": "2020-12-16T12:00:00-05:00",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/Location-438",
+          "display": "Lansing Westside Urgent Care Center"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "Practitioner/Practitioner-2108",
+              "display": "Marian Lorraine McCall DO"
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Immunization/Immunization-40315"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Immunization/Immunization-40316",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "Immunization-40316",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "edd7900f-d86d-462a-9c0d-7b98b55d7fc2"
+          }
+        ],
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "83",
+              "display": "Hep A, ped/adol, 2 dose"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/Patient-3563",
+          "display": "Lois Villanueva Fox"
+        },
+        "recorded": "2020-12-16T12:00:00-05:00",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/Location-438",
+          "display": "Lansing Westside Urgent Care Center"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "Practitioner/Practitioner-2108",
+              "display": "Marian Lorraine McCall DO"
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Immunization/Immunization-40316"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Immunization/Immunization-40317",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "Immunization-40317",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "53a8e196-f366-4dd1-98e0-cd987ff01f5b"
+          }
+        ],
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "49",
+              "display": "Hib (PRP-OMP)"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/Patient-3563",
+          "display": "Lois Villanueva Fox"
+        },
+        "recorded": "2020-12-16T12:00:00-05:00",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/Location-438",
+          "display": "Lansing Westside Urgent Care Center"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "Practitioner/Practitioner-2108",
+              "display": "Marian Lorraine McCall DO"
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Immunization/Immunization-40317"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Immunization/Immunization-40318",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "Immunization-40318",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "af6db0aa-1025-40ed-9ec8-bbc4455c61cd"
+          }
+        ],
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "10",
+              "display": "IPV"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/Patient-3563",
+          "display": "Lois Villanueva Fox"
+        },
+        "recorded": "2020-12-16T12:00:00-05:00",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/Location-438",
+          "display": "Lansing Westside Urgent Care Center"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "Practitioner/Practitioner-2108",
+              "display": "Marian Lorraine McCall DO"
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Immunization/Immunization-40318"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Immunization/Immunization-40319",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "Immunization-40319",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "ea92e56b-0729-46e2-9c50-f220b4c060b6"
+          }
+        ],
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "03",
+              "display": "MMR"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/Patient-3563",
+          "display": "Lois Villanueva Fox"
+        },
+        "recorded": "2020-12-16T12:00:00-05:00",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/Location-438",
+          "display": "Lansing Westside Urgent Care Center"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "Practitioner/Practitioner-2108",
+              "display": "Marian Lorraine McCall DO"
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Immunization/Immunization-40319"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Immunization/Immunization-40320",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "Immunization-40320",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "a13fc033-5a54-4f1d-8dee-5c4ea67cb578"
+          }
+        ],
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "133",
+              "display": "Pneumococcal conjugate PCV 13"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/Patient-3563",
+          "display": "Lois Villanueva Fox"
+        },
+        "recorded": "2020-12-16T12:00:00-05:00",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/Location-438",
+          "display": "Lansing Westside Urgent Care Center"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "Practitioner/Practitioner-2108",
+              "display": "Marian Lorraine McCall DO"
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Immunization/Immunization-40320"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Immunization/Immunization-40321",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "Immunization-40321",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "c21004b5-25d6-4db9-a679-e1ad1e465646"
+          }
+        ],
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "21",
+              "display": "varicella"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/Patient-3563",
+          "display": "Lois Villanueva Fox"
+        },
+        "recorded": "2020-12-16T12:00:00-05:00",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/Location-438",
+          "display": "Lansing Westside Urgent Care Center"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "Practitioner/Practitioner-2108",
+              "display": "Marian Lorraine McCall DO"
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Immunization/Immunization-40321"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Observation/Observation-75286",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Observation-75286",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "6470c987-eed4-4eff-a464-a172b02cf1c4"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic blood pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/Patient-3563",
+          "display": "Lois Villanueva Fox"
+        },
+        "encounter": {
+          "reference": "Encounter/Encounter-1792",
+          "display": "Wellness Visit"
+        },
+        "effectiveDateTime": "2020-12-16T12:00:00-05:00",
+        "performer": [
+          {
+            "reference": "Practitioner/Practitioner-2108",
+            "display": "Marian Lorraine McCall DO"
+          }
+        ],
+        "valueQuantity": {
+          "value": 156,
+          "unit": "mmHg"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Observation/Observation-75286"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Observation/Observation-75287",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Observation-75287",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "0d1134e9-04c5-4768-a760-7c3f771e2558"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/Patient-3563",
+          "display": "Lois Villanueva Fox"
+        },
+        "encounter": {
+          "reference": "Encounter/Encounter-1792",
+          "display": "Wellness Visit"
+        },
+        "effectiveDateTime": "2020-12-16T12:00:00-05:00",
+        "performer": [
+          {
+            "reference": "Practitioner/Practitioner-2108",
+            "display": "Marian Lorraine McCall DO"
+          }
+        ],
+        "valueQuantity": {
+          "value": 105,
+          "unit": "mmHg"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Observation/Observation-75287"
+      }
+    }
+  ]
+}

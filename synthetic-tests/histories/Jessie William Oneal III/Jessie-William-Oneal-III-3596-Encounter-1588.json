@@ -1,0 +1,158 @@
+{
+  "resourceType": "Bundle",
+  "id": "Jessie-William-Oneal-III-3596-Encounter-1588",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Encounter/Encounter-1588",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "Encounter-1588",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "value": "e8fa9c30-47c4-4186-a744-86d8de6a4bc7"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://hl7.org/fhir/encounter-class",
+          "code": "outpatient",
+          "display": "Outpatient"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "185345009",
+                "display": "Encounter for symptom"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/Patient-3596",
+          "display": "Jessie William Oneal III"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/v3/ParticipationType",
+                    "code": "ATND",
+                    "display": "attender"
+                  }
+                ]
+              }
+            ],
+            "period": {
+              "start": "2019-11-07T12:20:00-05:00",
+              "end": "2019-11-07T12:40:00-05:00"
+            },
+            "individual": {
+              "reference": "Practitioner/Practitioner-2860",
+              "display": "Shannon Benson Le MD"
+            }
+          }
+        ],
+        "period": {
+          "start": "2019-11-07T12:20:00-05:00",
+          "end": "2019-11-07T12:40:00-05:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/Location-438",
+              "display": "Lansing Westside Urgent Care Center"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "display": "Lansing Westside Urgent Care Center"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Encounter/Encounter-1588"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Observation/Observation-34640",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Observation-34640",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "aabdeb9b-5811-4ca0-9fa9-ed87ead4a0a6"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "exam",
+                "display": "Exam"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "428171000124102",
+              "display": "Depression screening negative (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/Patient-3596",
+          "display": "Jessie William Oneal III"
+        },
+        "encounter": {
+          "reference": "Encounter/Encounter-1588",
+          "display": "Wellness_Encounter"
+        },
+        "effectiveDateTime": "2019-11-07T12:20:00-05:00",
+        "performer": [
+          {
+            "reference": "Practitioner/Practitioner-2860",
+            "display": "Shannon Benson Le MD"
+          }
+        ],
+        "valueString": "NEGATIVE"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Observation/Observation-34640"
+      }
+    }
+  ]
+}

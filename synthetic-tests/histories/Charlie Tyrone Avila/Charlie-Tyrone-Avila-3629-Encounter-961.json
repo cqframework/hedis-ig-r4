@@ -1,0 +1,291 @@
+{
+  "resourceType": "Bundle",
+  "id": "Charlie-Tyrone-Avila-3629-Encounter-961",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Encounter/Encounter-961",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "Encounter-961",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "value": "78a9fabf-5574-44e9-98f5-6efa1403de49"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://hl7.org/fhir/encounter-class",
+          "code": "outpatient",
+          "display": "Outpatient"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://www.nubc.org",
+                "code": "0912",
+                "display": "Partial hospitalization-less intensive"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/Patient-3629",
+          "display": "Charlie Tyrone Avila"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/v3/ParticipationType",
+                    "code": "ATND",
+                    "display": "attender"
+                  }
+                ]
+              }
+            ],
+            "period": {
+              "start": "2019-06-17T11:20:00-04:00",
+              "end": "2019-06-17T11:40:00-04:00"
+            },
+            "individual": {
+              "reference": "Practitioner/Practitioner-2854",
+              "display": "Clara Pamela Christian MD"
+            }
+          }
+        ],
+        "period": {
+          "start": "2019-06-17T11:20:00-04:00",
+          "end": "2019-06-17T11:40:00-04:00"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "310495003",
+                "display": "Mild depression (disorder)"
+              }
+            ]
+          }
+        ],
+        "location": [
+          {
+            "location": {
+              "reference": "Location/Location-438",
+              "display": "Lansing Westside Urgent Care Center"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "display": "Lansing Westside Urgent Care Center"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Encounter/Encounter-961"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Procedure/Procedure-22667",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "Procedure-22667",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "5c883de6-c690-4318-a0bb-ec6a88dee67d"
+          }
+        ],
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://test",
+              "code": "2.16.840.1.113883.3.67.1.101.11.723",
+              "display": "2.16.840.1.113883.3.67.1.101.11.723"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/Patient-3629",
+          "display": "Charlie Tyrone Avila"
+        },
+        "encounter": {
+          "reference": "Encounter/Encounter-961",
+          "display": "DRR_Encounter"
+        },
+        "performedPeriod": {
+          "start": "2019-06-17T11:20:00-04:00",
+          "end": "2019-06-17T11:20:00-04:00"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "Practitioner/Practitioner-2854",
+              "display": "Clara Pamela Christian MD"
+            }
+          }
+        ],
+        "location": {
+          "reference": "Location/Location-438",
+          "display": "Lansing Westside Urgent Care Center"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Procedure/Procedure-22667"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Observation/Observation-22668",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "Observation-22668",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "b69fe3a0-b97b-401c-8beb-24d19d57a19c"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "exam",
+                "display": "Exam"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://cqframework.info/codesystem/placeholder",
+              "code": "00009",
+              "display": "PHQ-9 Modified Score"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/Patient-3629",
+          "display": "Charlie Tyrone Avila"
+        },
+        "encounter": {
+          "reference": "Encounter/Encounter-961",
+          "display": "DRR_Encounter"
+        },
+        "effectiveDateTime": "2019-06-17T11:20:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/Practitioner-2854",
+            "display": "Clara Pamela Christian MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 11.0,
+          "unit": "score"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Observation/Observation-22668"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/DiagnosticReport/DiagnosticReport-22669",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "DiagnosticReport-22669",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "955a1f0d-425f-424f-b354-f41e0e821619"
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "19527009",
+              "display": "Single episode of major depression in full remission (disorder)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/Patient-3629",
+          "display": "Charlie Tyrone Avila"
+        },
+        "encounter": {
+          "reference": "Encounter/Encounter-961",
+          "display": "DRR_Encounter"
+        },
+        "effectivePeriod": {
+          "start": "2019-06-17T11:20:00-04:00",
+          "end": "2019-06-17T11:20:00-04:00"
+        },
+        "issued": "2019-06-17T11:20:00.000-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/Practitioner-2854",
+            "display": "Clara Pamela Christian MD"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/DiagnosticReport/DiagnosticReport-22669"
+      }
+    }
+  ]
+}

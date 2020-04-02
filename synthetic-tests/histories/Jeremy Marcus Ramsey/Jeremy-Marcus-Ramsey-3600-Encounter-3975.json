@@ -1,0 +1,207 @@
+{
+  "resourceType": "Bundle",
+  "id": "Jeremy-Marcus-Ramsey-3600-Encounter-3975",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Encounter/Encounter-3975",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "Encounter-3975",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "value": "6836e31a-7084-4acb-99ff-1ab6db19080a"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://hl7.org/fhir/encounter-class",
+          "code": "outpatient",
+          "display": "Outpatient"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "428191000124101",
+                "display": "Documentation of current medications"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/Patient-3600",
+          "display": "Jeremy Marcus Ramsey"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/v3/ParticipationType",
+                    "code": "ATND",
+                    "display": "attender"
+                  }
+                ]
+              }
+            ],
+            "period": {
+              "start": "2021-03-18T13:20:00-04:00",
+              "end": "2021-03-18T13:40:00-04:00"
+            },
+            "individual": {
+              "reference": "Practitioner/Practitioner-2850",
+              "display": "Jay Norman Nicholson MD"
+            }
+          }
+        ],
+        "period": {
+          "start": "2021-03-18T13:20:00-04:00",
+          "end": "2021-03-18T13:40:00-04:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/Location-438",
+              "display": "Lansing Westside Urgent Care Center"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "display": "Lansing Westside Urgent Care Center"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Encounter/Encounter-3975"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Task/Task-84478",
+      "resource": {
+        "resourceType": "Task",
+        "id": "Task-84478",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "status": "accepted",
+        "intent": "original-order",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "430193006",
+              "display": "Medication Reconciliation (procedure)"
+            }
+          ]
+        },
+        "description": "Care_Plan_Start Task 1",
+        "for": {
+          "reference": "Patient/Patient-3600",
+          "display": "Jeremy Marcus Ramsey"
+        },
+        "encounter": {
+          "reference": "Encounter/Encounter-3975",
+          "display": "Outpatient_Encounter"
+        },
+        "executionPeriod": {
+          "start": "2021-03-19T01:00:00-04:00",
+          "end": "2021-03-19T01:00:00-04:00"
+        },
+        "authoredOn": "2021-03-19T01:00:00-04:00",
+        "requester": {
+          "reference": "Practitioner/Practitioner-2850",
+          "display": "Jay Norman Nicholson MD"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Task/Task-84478"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/CarePlan/CarePlan-84477",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "CarePlan-84477",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "cc63fd9b-c2ef-4550-b1c2-2553d8bb6ebe"
+          }
+        ],
+        "status": "active",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "430193006",
+                "display": "Medication Reconciliation (procedure)"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/Patient-3600",
+          "display": "Jeremy Marcus Ramsey"
+        },
+        "encounter": {
+          "reference": "Encounter/Encounter-3975",
+          "display": "Outpatient_Encounter"
+        },
+        "period": {
+          "start": "2021-03-18T13:20:00-04:00",
+          "end": "2021-03-18T13:20:00-04:00"
+        },
+        "author": {
+          "reference": "Practitioner/Practitioner-2850",
+          "display": "Jay Norman Nicholson MD"
+        },
+        "activity": [
+          {
+            "reference": {
+              "reference": "Task/Task-84478",
+              "display": "Care_Plan_Start Task 1"
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/CarePlan/CarePlan-84477"
+      }
+    }
+  ]
+}

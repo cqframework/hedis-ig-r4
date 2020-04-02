@@ -1,0 +1,207 @@
+{
+  "resourceType": "Bundle",
+  "id": "Jeffery-Leroy-George-3621-Encounter-4775",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Encounter/Encounter-4775",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "Encounter-4775",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "value": "a473519b-f62f-4098-91e7-5758dc8dc67a"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://hl7.org/fhir/encounter-class",
+          "code": "outpatient",
+          "display": "Outpatient"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "428191000124101",
+                "display": "Documentation of current medications"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/Patient-3621",
+          "display": "Jeffery Leroy George"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/v3/ParticipationType",
+                    "code": "ATND",
+                    "display": "attender"
+                  }
+                ]
+              }
+            ],
+            "period": {
+              "start": "2021-09-14T10:00:00-04:00",
+              "end": "2021-09-14T10:20:00-04:00"
+            },
+            "individual": {
+              "reference": "Practitioner/Practitioner-2862",
+              "display": "Kristina Oconnell Bender MD"
+            }
+          }
+        ],
+        "period": {
+          "start": "2021-09-14T10:00:00-04:00",
+          "end": "2021-09-14T10:20:00-04:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/Location-439",
+              "display": "Lansing Southside Urgent Care Center"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "display": "Lansing Southside Urgent Care Center"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Encounter/Encounter-4775"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Task/Task-100185",
+      "resource": {
+        "resourceType": "Task",
+        "id": "Task-100185",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "status": "accepted",
+        "intent": "original-order",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "430193006",
+              "display": "Medication Reconciliation (procedure)"
+            }
+          ]
+        },
+        "description": "Care_Plan_Start Task 1",
+        "for": {
+          "reference": "Patient/Patient-3621",
+          "display": "Jeffery Leroy George"
+        },
+        "encounter": {
+          "reference": "Encounter/Encounter-4775",
+          "display": "Outpatient_Encounter"
+        },
+        "executionPeriod": {
+          "start": "2021-09-12T00:00:00-04:00",
+          "end": "2021-09-12T00:00:00-04:00"
+        },
+        "authoredOn": "2021-09-12T00:00:00-04:00",
+        "requester": {
+          "reference": "Practitioner/Practitioner-2862",
+          "display": "Kristina Oconnell Bender MD"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Task/Task-100185"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/CarePlan/CarePlan-100184",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "CarePlan-100184",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "c10ad752-cd1d-426d-a02f-6fe95969c084"
+          }
+        ],
+        "status": "active",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "430193006",
+                "display": "Medication Reconciliation (procedure)"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/Patient-3621",
+          "display": "Jeffery Leroy George"
+        },
+        "encounter": {
+          "reference": "Encounter/Encounter-4775",
+          "display": "Outpatient_Encounter"
+        },
+        "period": {
+          "start": "2021-09-14T10:00:00-04:00",
+          "end": "2021-09-14T10:00:00-04:00"
+        },
+        "author": {
+          "reference": "Practitioner/Practitioner-2862",
+          "display": "Kristina Oconnell Bender MD"
+        },
+        "activity": [
+          {
+            "reference": {
+              "reference": "Task/Task-100185",
+              "display": "Care_Plan_Start Task 1"
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/CarePlan/CarePlan-100184"
+      }
+    }
+  ]
+}

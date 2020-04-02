@@ -1,0 +1,4858 @@
+{
+  "resourceType": "Bundle",
+  "id": "CQL Network",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1004",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "Organization-1004",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.5.9.99.999.9999.1004"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "TAX",
+                  "display": "Tax ID number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-tax",
+            "value": "000001004"
+          }
+        ],
+        "active": true,
+        "name": "Windward General Hospital",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "616-555-2517",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "251 View Avenue"
+            ],
+            "city": "Greenville",
+            "district": "Montcalm County",
+            "state": "MI",
+            "postalCode": "48838"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1004"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Location/Location-393",
+      "resource": {
+        "resourceType": "Location",
+        "id": "Location-393",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.393"
+          }
+        ],
+        "status": "active",
+        "name": "Windward General Hospital",
+        "mode": "instance",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(616) 555-3498",
+            "use": "work"
+          }
+        ],
+        "address": {
+          "use": "work",
+          "type": "physical",
+          "line": [
+            "251 View Avenue"
+          ],
+          "city": "Greenville",
+          "district": "Montcalm County",
+          "state": "MI",
+          "postalCode": "48838"
+        },
+        "physicalType": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/location-physical-type",
+              "code": "bu",
+              "display": "Building"
+            }
+          ]
+        },
+        "position": {
+          "longitude": -85.22890834841634,
+          "latitude": 43.1808795292631
+        },
+        "managingOrganization": {
+          "reference": "Organization/Organization-1004",
+          "display": "Windward General Hospital"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Location/Location-393"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1005",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "Organization-1005",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.5.9.99.999.9999.1005"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "TAX",
+                  "display": "Tax ID number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-tax",
+            "value": "000001005"
+          }
+        ],
+        "active": true,
+        "name": "Gift of Mercy Hospital",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "810-555-3637",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "750 NW Almond Drive"
+            ],
+            "city": "Flint",
+            "district": "Genesee County",
+            "state": "MI",
+            "postalCode": "48532"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1005"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Location/Location-406",
+      "resource": {
+        "resourceType": "Location",
+        "id": "Location-406",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.406"
+          }
+        ],
+        "status": "active",
+        "name": "Gift of Mercy Hospital",
+        "mode": "instance",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(810) 555-7607",
+            "use": "work"
+          }
+        ],
+        "address": {
+          "use": "work",
+          "type": "physical",
+          "line": [
+            "750 NW Almond Drive"
+          ],
+          "city": "Flint",
+          "district": "Genesee County",
+          "state": "MI",
+          "postalCode": "48532"
+        },
+        "physicalType": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/location-physical-type",
+              "code": "bu",
+              "display": "Building"
+            }
+          ]
+        },
+        "position": {
+          "longitude": -83.68908579613175,
+          "latitude": 43.02938483966839
+        },
+        "managingOrganization": {
+          "reference": "Organization/Organization-1005",
+          "display": "Gift of Mercy Hospital"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Location/Location-406"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1006",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "Organization-1006",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.5.9.99.999.9999.1006"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "TAX",
+                  "display": "Tax ID number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-tax",
+            "value": "000001006"
+          }
+        ],
+        "active": true,
+        "name": "EMS Comprehensive Care",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "313-555-5234",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "844 Fifth Circle"
+            ],
+            "city": "Detroit",
+            "district": "Wayne County",
+            "state": "MI",
+            "postalCode": "48224"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1006"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Location/Location-419",
+      "resource": {
+        "resourceType": "Location",
+        "id": "Location-419",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.419"
+          }
+        ],
+        "status": "active",
+        "name": "EMS Comprehensive Care",
+        "mode": "instance",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(313) 555-0412",
+            "use": "work"
+          }
+        ],
+        "address": {
+          "use": "work",
+          "type": "physical",
+          "line": [
+            "844 Fifth Circle"
+          ],
+          "city": "Detroit",
+          "district": "Wayne County",
+          "state": "MI",
+          "postalCode": "48224"
+        },
+        "physicalType": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/location-physical-type",
+              "code": "bu",
+              "display": "Building"
+            }
+          ]
+        },
+        "position": {
+          "longitude": -83.09106380098922,
+          "latitude": 42.38206355459173
+        },
+        "managingOrganization": {
+          "reference": "Organization/Organization-1006",
+          "display": "EMS Comprehensive Care"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Location/Location-419"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1321",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "Organization-1321",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.5.9.99.999.9999.1321"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "TAX",
+                  "display": "Tax ID number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-tax",
+            "value": "000001321"
+          }
+        ],
+        "active": true,
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/organization-type",
+                "code": "prov",
+                "display": "Healthcare Provider"
+              }
+            ]
+          }
+        ],
+        "name": "Lansing Northside Urgent Care Center",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "734-555-7616",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "77 Main Circle",
+              "Unit 18"
+            ],
+            "city": "Ida",
+            "district": "Monroe County",
+            "state": "MI",
+            "postalCode": "48140"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1321"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Location/Location-437",
+      "resource": {
+        "resourceType": "Location",
+        "id": "Location-437",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.437"
+          }
+        ],
+        "status": "active",
+        "name": "Lansing Northside Urgent Care Center",
+        "mode": "instance",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(734) 555-6238",
+            "use": "work"
+          }
+        ],
+        "address": {
+          "use": "work",
+          "type": "physical",
+          "line": [
+            "77 Main Circle",
+            "Unit 18"
+          ],
+          "city": "Ida",
+          "district": "Monroe County",
+          "state": "MI",
+          "postalCode": "48140"
+        },
+        "physicalType": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/location-physical-type",
+              "code": "bu",
+              "display": "Building"
+            }
+          ]
+        },
+        "position": {
+          "longitude": -83.5666364259005,
+          "latitude": 41.91449420619106
+        },
+        "managingOrganization": {
+          "reference": "Organization/Organization-1321",
+          "display": "Lansing Northside Urgent Care Center"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Location/Location-437"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1322",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "Organization-1322",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.5.9.99.999.9999.1322"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "TAX",
+                  "display": "Tax ID number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-tax",
+            "value": "000001322"
+          }
+        ],
+        "active": true,
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/organization-type",
+                "code": "prov",
+                "display": "Healthcare Provider"
+              }
+            ]
+          }
+        ],
+        "name": "Lansing Westside Urgent Care Center",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "586-555-3654",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "448 NW Walnut Circle",
+              "Unit 18"
+            ],
+            "city": "Utica",
+            "district": "Macomb County",
+            "state": "MI",
+            "postalCode": "48317"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1322"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Location/Location-438",
+      "resource": {
+        "resourceType": "Location",
+        "id": "Location-438",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.438"
+          }
+        ],
+        "status": "active",
+        "name": "Lansing Westside Urgent Care Center",
+        "mode": "instance",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(586) 555-0127",
+            "use": "work"
+          }
+        ],
+        "address": {
+          "use": "work",
+          "type": "physical",
+          "line": [
+            "448 NW Walnut Circle",
+            "Unit 18"
+          ],
+          "city": "Utica",
+          "district": "Macomb County",
+          "state": "MI",
+          "postalCode": "48317"
+        },
+        "physicalType": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/location-physical-type",
+              "code": "bu",
+              "display": "Building"
+            }
+          ]
+        },
+        "position": {
+          "longitude": -83.0187739406504,
+          "latitude": 42.65027930065323
+        },
+        "managingOrganization": {
+          "reference": "Organization/Organization-1322",
+          "display": "Lansing Westside Urgent Care Center"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Location/Location-438"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1323",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "Organization-1323",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.5.9.99.999.9999.1323"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "TAX",
+                  "display": "Tax ID number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-tax",
+            "value": "000001323"
+          }
+        ],
+        "active": true,
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/organization-type",
+                "code": "prov",
+                "display": "Healthcare Provider"
+              }
+            ]
+          }
+        ],
+        "name": "Lansing Southside Urgent Care Center",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "586-555-6998",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "261 SW Roosevelt Circle"
+            ],
+            "city": "Eastpointe",
+            "district": "Macomb County",
+            "state": "MI",
+            "postalCode": "48021"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1323"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Location/Location-439",
+      "resource": {
+        "resourceType": "Location",
+        "id": "Location-439",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.439"
+          }
+        ],
+        "status": "active",
+        "name": "Lansing Southside Urgent Care Center",
+        "mode": "instance",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(586) 555-4886",
+            "use": "work"
+          }
+        ],
+        "address": {
+          "use": "work",
+          "type": "physical",
+          "line": [
+            "261 SW Roosevelt Circle"
+          ],
+          "city": "Eastpointe",
+          "district": "Macomb County",
+          "state": "MI",
+          "postalCode": "48021"
+        },
+        "physicalType": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/location-physical-type",
+              "code": "bu",
+              "display": "Building"
+            }
+          ]
+        },
+        "position": {
+          "longitude": -82.9343099485761,
+          "latitude": 42.47627653123394
+        },
+        "managingOrganization": {
+          "reference": "Organization/Organization-1323",
+          "display": "Lansing Southside Urgent Care Center"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Location/Location-439"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1101",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "Organization-1101",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.5.9.99.999.9999.1101"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "TAX",
+                  "display": "Tax ID number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-tax",
+            "value": "000001101"
+          }
+        ],
+        "active": true,
+        "name": "Patient Centric Care",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "313-555-9394",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "626 W Hill Circle"
+            ],
+            "city": "Redford",
+            "district": "Wayne County",
+            "state": "MI",
+            "postalCode": "48239"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1101"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Location/Location-556",
+      "resource": {
+        "resourceType": "Location",
+        "id": "Location-556",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.556"
+          }
+        ],
+        "status": "active",
+        "name": "Patient Centric Care",
+        "mode": "instance",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(313) 555-3113",
+            "use": "work"
+          }
+        ],
+        "address": {
+          "use": "work",
+          "type": "physical",
+          "line": [
+            "626 W Hill Circle"
+          ],
+          "city": "Redford",
+          "district": "Wayne County",
+          "state": "MI",
+          "postalCode": "48239"
+        },
+        "physicalType": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/location-physical-type",
+              "code": "bu",
+              "display": "Building"
+            }
+          ]
+        },
+        "position": {
+          "longitude": -83.27482603181265,
+          "latitude": 42.3943267651828
+        },
+        "managingOrganization": {
+          "reference": "Organization/Organization-1101",
+          "display": "Patient Centric Care"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Location/Location-556"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1102",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "Organization-1102",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.5.9.99.999.9999.1102"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "TAX",
+                  "display": "Tax ID number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-tax",
+            "value": "000001102"
+          }
+        ],
+        "active": true,
+        "name": "Rush Healthcare",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "616-555-4850",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "456 S Maple Road"
+            ],
+            "city": "Jenison",
+            "district": "Ottawa County",
+            "state": "MI",
+            "postalCode": "49428"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1102"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Location/Location-557",
+      "resource": {
+        "resourceType": "Location",
+        "id": "Location-557",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.557"
+          }
+        ],
+        "status": "active",
+        "name": "Rush Healthcare",
+        "mode": "instance",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(616) 555-5438",
+            "use": "work"
+          }
+        ],
+        "address": {
+          "use": "work",
+          "type": "physical",
+          "line": [
+            "456 S Maple Road"
+          ],
+          "city": "Jenison",
+          "district": "Ottawa County",
+          "state": "MI",
+          "postalCode": "49428"
+        },
+        "physicalType": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/location-physical-type",
+              "code": "bu",
+              "display": "Building"
+            }
+          ]
+        },
+        "position": {
+          "longitude": -85.79327981631936,
+          "latitude": 42.90710111647212
+        },
+        "managingOrganization": {
+          "reference": "Organization/Organization-1102",
+          "display": "Rush Healthcare"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Location/Location-557"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1103",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "Organization-1103",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.5.9.99.999.9999.1103"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "TAX",
+                  "display": "Tax ID number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-tax",
+            "value": "000001103"
+          }
+        ],
+        "active": true,
+        "name": "Centricity Medicine",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "616-555-3946",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "357 W Fourth Avenue",
+              "Unit 6"
+            ],
+            "city": "Ionia",
+            "district": "Ionia County",
+            "state": "MI",
+            "postalCode": "48846"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1103"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Location/Location-558",
+      "resource": {
+        "resourceType": "Location",
+        "id": "Location-558",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.558"
+          }
+        ],
+        "status": "active",
+        "name": "Centricity Medicine",
+        "mode": "instance",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(616) 555-3118",
+            "use": "work"
+          }
+        ],
+        "address": {
+          "use": "work",
+          "type": "physical",
+          "line": [
+            "357 W Fourth Avenue",
+            "Unit 6"
+          ],
+          "city": "Ionia",
+          "district": "Ionia County",
+          "state": "MI",
+          "postalCode": "48846"
+        },
+        "physicalType": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/location-physical-type",
+              "code": "bu",
+              "display": "Building"
+            }
+          ]
+        },
+        "position": {
+          "longitude": -85.03720762081382,
+          "latitude": 42.982584999169525
+        },
+        "managingOrganization": {
+          "reference": "Organization/Organization-1103",
+          "display": "Centricity Medicine"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Location/Location-558"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1007",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "Organization-1007",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.5.9.99.999.9999.1007"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "TAX",
+                  "display": "Tax ID number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-tax",
+            "value": "000001007"
+          }
+        ],
+        "active": true,
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/organization-type",
+                "code": "prov",
+                "display": "Healthcare Provider"
+              }
+            ]
+          }
+        ],
+        "name": "Orthopedic Specialists",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "248-555-5650",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "92 W Sixth Street"
+            ],
+            "city": "Detroit",
+            "district": "Wayne County",
+            "state": "MI",
+            "postalCode": "48223"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1007"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Location/Location-432",
+      "resource": {
+        "resourceType": "Location",
+        "id": "Location-432",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.432"
+          }
+        ],
+        "status": "active",
+        "name": "Orthopedic Specialists",
+        "mode": "instance",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(313) 555-1273",
+            "use": "work"
+          }
+        ],
+        "address": {
+          "use": "work",
+          "type": "physical",
+          "line": [
+            "92 W Sixth Street"
+          ],
+          "city": "Detroit",
+          "district": "Wayne County",
+          "state": "MI",
+          "postalCode": "48223"
+        },
+        "physicalType": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/location-physical-type",
+              "code": "bu",
+              "display": "Building"
+            }
+          ]
+        },
+        "position": {
+          "longitude": -83.09816017887852,
+          "latitude": 42.390273755905895
+        },
+        "managingOrganization": {
+          "reference": "Organization/Organization-1007",
+          "display": "Orthopedic Specialists"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Location/Location-432"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1008",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "Organization-1008",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.5.9.99.999.9999.1008"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "TAX",
+                  "display": "Tax ID number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-tax",
+            "value": "000001008"
+          }
+        ],
+        "active": true,
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/organization-type",
+                "code": "prov",
+                "display": "Healthcare Provider"
+              }
+            ]
+          }
+        ],
+        "name": "Apex Radiology",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "586-555-6018",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "325 N Apricot Circle",
+              "Unit 11"
+            ],
+            "city": "Saint Clair Shores",
+            "district": "Macomb County",
+            "state": "MI",
+            "postalCode": "48080"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1008"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Location/Location-433",
+      "resource": {
+        "resourceType": "Location",
+        "id": "Location-433",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.433"
+          }
+        ],
+        "status": "active",
+        "name": "Apex Radiology",
+        "mode": "instance",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(586) 555-6405",
+            "use": "work"
+          }
+        ],
+        "address": {
+          "use": "work",
+          "type": "physical",
+          "line": [
+            "325 N Apricot Circle",
+            "Unit 11"
+          ],
+          "city": "Saint Clair Shores",
+          "district": "Macomb County",
+          "state": "MI",
+          "postalCode": "48080"
+        },
+        "physicalType": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/location-physical-type",
+              "code": "bu",
+              "display": "Building"
+            }
+          ]
+        },
+        "position": {
+          "longitude": -82.887279858257,
+          "latitude": 42.494476257925776
+        },
+        "managingOrganization": {
+          "reference": "Organization/Organization-1008",
+          "display": "Apex Radiology"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Location/Location-433"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1011",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "Organization-1011",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.5.9.99.999.9999.1011"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "TAX",
+                  "display": "Tax ID number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-tax",
+            "value": "000001011"
+          }
+        ],
+        "active": true,
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/organization-type",
+                "code": "prov",
+                "display": "Healthcare Provider"
+              }
+            ]
+          }
+        ],
+        "name": "Five Lakes Ambulatory Services",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "248-555-2825",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "698 N Second Street"
+            ],
+            "city": "Novi",
+            "district": "Oakland County",
+            "state": "MI",
+            "postalCode": "48377"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1011"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Location/Location-436",
+      "resource": {
+        "resourceType": "Location",
+        "id": "Location-436",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.436"
+          }
+        ],
+        "status": "active",
+        "name": "Five Lakes Ambulatory Services",
+        "mode": "instance",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(248) 555-7583",
+            "use": "work"
+          }
+        ],
+        "address": {
+          "use": "work",
+          "type": "physical",
+          "line": [
+            "698 N Second Street"
+          ],
+          "city": "Novi",
+          "district": "Oakland County",
+          "state": "MI",
+          "postalCode": "48377"
+        },
+        "physicalType": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/location-physical-type",
+              "code": "bu",
+              "display": "Building"
+            }
+          ]
+        },
+        "position": {
+          "longitude": -83.4818405670863,
+          "latitude": 42.48362268607703
+        },
+        "managingOrganization": {
+          "reference": "Organization/Organization-1011",
+          "display": "Five Lakes Ambulatory Services"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Location/Location-436"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1009",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "Organization-1009",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.5.9.99.999.9999.1009"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "TAX",
+                  "display": "Tax ID number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-tax",
+            "value": "000001009"
+          }
+        ],
+        "active": true,
+        "name": "Mercy Living",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "248-555-8391",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "696 NW Lincoln Court",
+              "Unit 5"
+            ],
+            "city": "Waterford",
+            "district": "Oakland County",
+            "state": "MI",
+            "postalCode": "48328"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1009"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Location/Location-434",
+      "resource": {
+        "resourceType": "Location",
+        "id": "Location-434",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.434"
+          }
+        ],
+        "status": "active",
+        "name": "Mercy Living",
+        "mode": "instance",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(248) 555-7757",
+            "use": "work"
+          }
+        ],
+        "address": {
+          "use": "work",
+          "type": "physical",
+          "line": [
+            "696 NW Lincoln Court",
+            "Unit 5"
+          ],
+          "city": "Waterford",
+          "district": "Oakland County",
+          "state": "MI",
+          "postalCode": "48328"
+        },
+        "physicalType": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/location-physical-type",
+              "code": "bu",
+              "display": "Building"
+            }
+          ]
+        },
+        "position": {
+          "longitude": -83.3713410366113,
+          "latitude": 42.68524036721046
+        },
+        "managingOrganization": {
+          "reference": "Organization/Organization-1009",
+          "display": "Mercy Living"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Location/Location-434"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1010",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "Organization-1010",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.5.9.99.999.9999.1010"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "TAX",
+                  "display": "Tax ID number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-tax",
+            "value": "000001010"
+          }
+        ],
+        "active": true,
+        "name": "St. Thomas Nursing",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "248-555-2517",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "645 Apple Road"
+            ],
+            "city": "Commerce Township",
+            "district": "Oakland County",
+            "state": "MI",
+            "postalCode": "48382"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1010"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Location/Location-435",
+      "resource": {
+        "resourceType": "Location",
+        "id": "Location-435",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.435"
+          }
+        ],
+        "status": "active",
+        "name": "St. Thomas Nursing",
+        "mode": "instance",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(248) 555-9840",
+            "use": "work"
+          }
+        ],
+        "address": {
+          "use": "work",
+          "type": "physical",
+          "line": [
+            "645 Apple Road"
+          ],
+          "city": "Commerce Township",
+          "district": "Oakland County",
+          "state": "MI",
+          "postalCode": "48382"
+        },
+        "physicalType": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/location-physical-type",
+              "code": "bu",
+              "display": "Building"
+            }
+          ]
+        },
+        "position": {
+          "longitude": -83.48974578355882,
+          "latitude": 42.59709561903728
+        },
+        "managingOrganization": {
+          "reference": "Organization/Organization-1010",
+          "display": "St. Thomas Nursing"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Location/Location-435"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1018",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "Organization-1018",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.5.9.99.999.9999.1018"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "TAX",
+                  "display": "Tax ID number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-tax",
+            "value": "000001018"
+          }
+        ],
+        "active": true,
+        "name": "Maple Community Living",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "248-555-1051",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "571 Colorado Avenue"
+            ],
+            "city": "Holly",
+            "district": "Oakland County",
+            "state": "MI",
+            "postalCode": "48442"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Organization/Organization-1018"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Location/Location-482",
+      "resource": {
+        "resourceType": "Location",
+        "id": "Location-482",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.hl7.org/oid/",
+            "value": "1.2.3.4.482"
+          }
+        ],
+        "status": "active",
+        "name": "Maple Community Living",
+        "mode": "instance",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(248) 555-7080",
+            "use": "work"
+          }
+        ],
+        "address": {
+          "use": "work",
+          "type": "physical",
+          "line": [
+            "571 Colorado Avenue"
+          ],
+          "city": "Holly",
+          "district": "Oakland County",
+          "state": "MI",
+          "postalCode": "48442"
+        },
+        "physicalType": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/location-physical-type",
+              "code": "bu",
+              "display": "Building"
+            }
+          ]
+        },
+        "position": {
+          "longitude": -83.6102224103492,
+          "latitude": 42.80860482992944
+        },
+        "managingOrganization": {
+          "reference": "Organization/Organization-1018",
+          "display": "Maple Community Living"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Location/Location-482"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-1081",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "Practitioner-1081",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://mihin.org/fhir/extension/taxonomy",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nucc.org/provider-taxonomy",
+                  "code": "208D00000X",
+                  "display": "General Practice"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000001081"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "e686647fdfbd40eb88e07f43ed4ca569"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Taylor",
+            "given": [
+              "Katherine",
+              "Elaine"
+            ],
+            "suffix": [
+              "MD"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "616-555-6696",
+            "use": "work"
+          },
+          {
+            "system": "phone",
+            "value": "616-555-8952",
+            "use": "mobile"
+          }
+        ],
+        "address": [
+          {
+            "use": "work",
+            "type": "postal",
+            "line": [
+              "639 N Apricot Court"
+            ],
+            "city": "Detroit",
+            "district": "Wayne County",
+            "state": "MI",
+            "postalCode": "48213"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1966-02-07",
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "MD",
+                      "display": "Medical License number"
+                    }
+                  ]
+                },
+                "system": "http://state.gov/fhir/medical-license",
+                "value": "LIC-1081"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.7",
+                  "code": "MD",
+                  "display": "Doctor of Medicine"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-1081"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2108",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "Practitioner-2108",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://mihin.org/fhir/extension/taxonomy",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nucc.org/provider-taxonomy",
+                  "code": "208D00000X",
+                  "display": "General Practice"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000002108"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "8887d80d2e9c49aebaf14b3a4d62a167"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "McCall",
+            "given": [
+              "Marian",
+              "Lorraine"
+            ],
+            "suffix": [
+              "DO"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "586-555-3828",
+            "use": "work"
+          },
+          {
+            "system": "phone",
+            "value": "586-555-1639",
+            "use": "mobile"
+          }
+        ],
+        "address": [
+          {
+            "use": "work",
+            "type": "postal",
+            "line": [
+              "230 W Peach Place"
+            ],
+            "city": "Livonia",
+            "district": "Wayne County",
+            "state": "MI",
+            "postalCode": "48152"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1975-03-07",
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "MD",
+                      "display": "Medical License number"
+                    }
+                  ]
+                },
+                "system": "http://state.gov/fhir/medical-license",
+                "value": "LIC-2108"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.7",
+                  "code": "MD",
+                  "display": "Doctor of Medicine"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2108"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2109",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "Practitioner-2109",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://mihin.org/fhir/extension/taxonomy",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nucc.org/provider-taxonomy",
+                  "code": "208D00000X",
+                  "display": "General Practice"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000002109"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "aa8ae8ff6393422bbd5a41cca25a93e3"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Schultz",
+            "given": [
+              "Ellen",
+              "Knapp"
+            ],
+            "suffix": [
+              "MD"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "906-555-9539",
+            "use": "work"
+          },
+          {
+            "system": "phone",
+            "value": "906-555-1569",
+            "use": "mobile"
+          }
+        ],
+        "address": [
+          {
+            "use": "work",
+            "type": "postal",
+            "line": [
+              "322 S Second Street"
+            ],
+            "city": "Birmingham",
+            "district": "Oakland County",
+            "state": "MI",
+            "postalCode": "48009"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1976-02-04",
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "MD",
+                      "display": "Medical License number"
+                    }
+                  ]
+                },
+                "system": "http://state.gov/fhir/medical-license",
+                "value": "LIC-2109"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.7",
+                  "code": "MD",
+                  "display": "Doctor of Medicine"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2109"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2110",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "Practitioner-2110",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://mihin.org/fhir/extension/taxonomy",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nucc.org/provider-taxonomy",
+                  "code": "208D00000X",
+                  "display": "General Practice"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000002110"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "0b97a9d5a28147f59a895fe2bbcb1996"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Gross",
+            "given": [
+              "Ana",
+              "Campbell"
+            ],
+            "suffix": [
+              "MD"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "231-555-3213",
+            "use": "work"
+          },
+          {
+            "system": "phone",
+            "value": "231-555-7022",
+            "use": "mobile"
+          }
+        ],
+        "address": [
+          {
+            "use": "work",
+            "type": "postal",
+            "line": [
+              "848 Park Street"
+            ],
+            "city": "Southgate",
+            "district": "Wayne County",
+            "state": "MI",
+            "postalCode": "48195"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1974-12-22",
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "MD",
+                      "display": "Medical License number"
+                    }
+                  ]
+                },
+                "system": "http://state.gov/fhir/medical-license",
+                "value": "LIC-2110"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.7",
+                  "code": "MD",
+                  "display": "Doctor of Medicine"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2110"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2111",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "Practitioner-2111",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://mihin.org/fhir/extension/taxonomy",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nucc.org/provider-taxonomy",
+                  "code": "208D00000X",
+                  "display": "General Practice"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000002111"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "3aa873988d544ad8a0364cff18f0074c"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Marks",
+            "given": [
+              "Phillip",
+              "Ricardo"
+            ],
+            "suffix": [
+              "DD"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "734-555-8170",
+            "use": "work"
+          },
+          {
+            "system": "phone",
+            "value": "313-555-2053",
+            "use": "mobile"
+          }
+        ],
+        "address": [
+          {
+            "use": "work",
+            "type": "postal",
+            "line": [
+              "697 W Lincoln Court",
+              "Unit 16"
+            ],
+            "city": "Kalamazoo",
+            "district": "Kalamazoo County",
+            "state": "MI",
+            "postalCode": "49008"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1979-05-15",
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "MD",
+                      "display": "Medical License number"
+                    }
+                  ]
+                },
+                "system": "http://state.gov/fhir/medical-license",
+                "value": "LIC-2111"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.7",
+                  "code": "MD",
+                  "display": "Doctor of Medicine"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2111"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2850",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "Practitioner-2850",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://mihin.org/fhir/extension/taxonomy",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nucc.org/provider-taxonomy",
+                  "code": "2086X0206X",
+                  "display": "Surgical Oncology"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000002850"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "PRN",
+                  "display": "Provider number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999992850"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "30d5ae97798f40d692f95168068e5a68"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Nicholson",
+            "given": [
+              "Jay",
+              "Norman"
+            ],
+            "suffix": [
+              "MD"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "616-555-7623",
+            "use": "work"
+          },
+          {
+            "system": "phone",
+            "value": "616-555-0300",
+            "use": "mobile"
+          }
+        ],
+        "address": [
+          {
+            "use": "work",
+            "type": "postal",
+            "line": [
+              "809 SW Atlantic Avenue"
+            ],
+            "city": "Greenville",
+            "district": "Montcalm County",
+            "state": "MI",
+            "postalCode": "48838"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1984-12-27",
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "MD",
+                      "display": "Medical License number"
+                    }
+                  ]
+                },
+                "system": "http://state.gov/fhir/medical-license",
+                "value": "LIC-2850"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.7",
+                  "code": "MD",
+                  "display": "Doctor of Medicine"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2850"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2851",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "Practitioner-2851",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://mihin.org/fhir/extension/taxonomy",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nucc.org/provider-taxonomy",
+                  "code": "207QA0401X",
+                  "display": "Addiction Medicine"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000002851"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "PRN",
+                  "display": "Provider number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999992851"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "f2c6d808cbdb4fc3a36ae096d2bc7584"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Dorsey",
+            "given": [
+              "Luis",
+              "Grant"
+            ],
+            "suffix": [
+              "MD"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "313-555-4754",
+            "use": "work"
+          },
+          {
+            "system": "phone",
+            "value": "313-555-4167",
+            "use": "mobile"
+          }
+        ],
+        "address": [
+          {
+            "use": "work",
+            "type": "postal",
+            "line": [
+              "576 Nile Avenue"
+            ],
+            "city": "Greenville",
+            "district": "Montcalm County",
+            "state": "MI",
+            "postalCode": "48838"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1955-06-03",
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "MD",
+                      "display": "Medical License number"
+                    }
+                  ]
+                },
+                "system": "http://state.gov/fhir/medical-license",
+                "value": "LIC-2851"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.7",
+                  "code": "MD",
+                  "display": "Doctor of Medicine"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2851"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2852",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "Practitioner-2852",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://mihin.org/fhir/extension/taxonomy",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nucc.org/provider-taxonomy",
+                  "code": "207R00000X",
+                  "display": "Internal Medicine"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000002852"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "PRN",
+                  "display": "Provider number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999992852"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "b6ec6d7e5efa411d850544d361d1fa6a"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Yates",
+            "given": [
+              "Dwight",
+              "Francisco"
+            ],
+            "suffix": [
+              "MD"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "231-555-4582",
+            "use": "work"
+          },
+          {
+            "system": "phone",
+            "value": "231-555-0879",
+            "use": "mobile"
+          }
+        ],
+        "address": [
+          {
+            "use": "work",
+            "type": "postal",
+            "line": [
+              "520 Thames Street"
+            ],
+            "city": "Greenville",
+            "district": "Montcalm County",
+            "state": "MI",
+            "postalCode": "48838"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1986-12-25",
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "MD",
+                      "display": "Medical License number"
+                    }
+                  ]
+                },
+                "system": "http://state.gov/fhir/medical-license",
+                "value": "LIC-2852"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.7",
+                  "code": "MD",
+                  "display": "Doctor of Medicine"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2852"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2853",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "Practitioner-2853",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://mihin.org/fhir/extension/taxonomy",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nucc.org/provider-taxonomy",
+                  "code": "207ZN0500X",
+                  "display": "Neuropathology"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000002853"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "PRN",
+                  "display": "Provider number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999992853"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "e8c5a23136fe4393931c738a396de5d8"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Stein",
+            "given": [
+              "Pauline",
+              "Ruby"
+            ],
+            "suffix": [
+              "MD"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "269-555-4487",
+            "use": "work"
+          },
+          {
+            "system": "phone",
+            "value": "269-555-3903",
+            "use": "mobile"
+          }
+        ],
+        "address": [
+          {
+            "use": "work",
+            "type": "postal",
+            "line": [
+              "429 Nile Street"
+            ],
+            "city": "Greenville",
+            "district": "Montcalm County",
+            "state": "MI",
+            "postalCode": "48838"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1977-09-21",
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "MD",
+                      "display": "Medical License number"
+                    }
+                  ]
+                },
+                "system": "http://state.gov/fhir/medical-license",
+                "value": "LIC-2853"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.7",
+                  "code": "MD",
+                  "display": "Doctor of Medicine"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2853"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2854",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "Practitioner-2854",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://mihin.org/fhir/extension/taxonomy",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nucc.org/provider-taxonomy",
+                  "code": "202K00000X",
+                  "display": "Phlebology"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000002854"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "PRN",
+                  "display": "Provider number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999992854"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "e529f17e915549bcaab6b7fdc5d1bbde"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Christian",
+            "given": [
+              "Clara",
+              "Pamela"
+            ],
+            "suffix": [
+              "MD"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "586-555-6479",
+            "use": "work"
+          },
+          {
+            "system": "phone",
+            "value": "586-555-9895",
+            "use": "mobile"
+          }
+        ],
+        "address": [
+          {
+            "use": "work",
+            "type": "postal",
+            "line": [
+              "186 Fifth Court",
+              "Unit 1"
+            ],
+            "city": "Greenville",
+            "district": "Montcalm County",
+            "state": "MI",
+            "postalCode": "48838"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1952-09-15",
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "MD",
+                      "display": "Medical License number"
+                    }
+                  ]
+                },
+                "system": "http://state.gov/fhir/medical-license",
+                "value": "LIC-2854"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.7",
+                  "code": "MD",
+                  "display": "Doctor of Medicine"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2854"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2855",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "Practitioner-2855",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://mihin.org/fhir/extension/taxonomy",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nucc.org/provider-taxonomy",
+                  "code": "207QA0401X",
+                  "display": "Addiction Medicine"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000002855"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "PRN",
+                  "display": "Provider number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999992855"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "25241ccd7acf47968e74f5d9b5d66318"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Dudley",
+            "given": [
+              "Maureen",
+              "Hood"
+            ],
+            "suffix": [
+              "MD"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "313-555-4071",
+            "use": "work"
+          },
+          {
+            "system": "phone",
+            "value": "313-555-4405",
+            "use": "mobile"
+          }
+        ],
+        "address": [
+          {
+            "use": "work",
+            "type": "postal",
+            "line": [
+              "87 S Almond Street",
+              "Unit 2"
+            ],
+            "city": "Greenville",
+            "district": "Montcalm County",
+            "state": "MI",
+            "postalCode": "48838"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1966-07-25",
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "MD",
+                      "display": "Medical License number"
+                    }
+                  ]
+                },
+                "system": "http://state.gov/fhir/medical-license",
+                "value": "LIC-2855"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.7",
+                  "code": "MD",
+                  "display": "Doctor of Medicine"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2855"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2856",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "Practitioner-2856",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://mihin.org/fhir/extension/taxonomy",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nucc.org/provider-taxonomy",
+                  "code": "2080P0205X",
+                  "display": "Pediatric Endocrinology"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000002856"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "PRN",
+                  "display": "Provider number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999992856"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "46b5d17dc403427d984b34308a8dc6f0"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Hebert",
+            "given": [
+              "Andrea",
+              "Carmen"
+            ],
+            "suffix": [
+              "MD"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "517-555-9613",
+            "use": "work"
+          },
+          {
+            "system": "phone",
+            "value": "517-555-2314",
+            "use": "mobile"
+          }
+        ],
+        "address": [
+          {
+            "use": "work",
+            "type": "postal",
+            "line": [
+              "446 Missouri Avenue"
+            ],
+            "city": "Greenville",
+            "district": "Montcalm County",
+            "state": "MI",
+            "postalCode": "48838"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1986-03-13",
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "MD",
+                      "display": "Medical License number"
+                    }
+                  ]
+                },
+                "system": "http://state.gov/fhir/medical-license",
+                "value": "LIC-2856"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.7",
+                  "code": "MD",
+                  "display": "Doctor of Medicine"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2856"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2857",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "Practitioner-2857",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://mihin.org/fhir/extension/taxonomy",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nucc.org/provider-taxonomy",
+                  "code": "207RX0202X",
+                  "display": "Medical Oncology"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000002857"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "PRN",
+                  "display": "Provider number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999992857"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "3c39e4e3beab4b8ca38f978e6c60cc3a"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Colon",
+            "given": [
+              "Kim",
+              "David"
+            ],
+            "suffix": [
+              "MD"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "734-555-6857",
+            "use": "work"
+          },
+          {
+            "system": "phone",
+            "value": "734-555-8426",
+            "use": "mobile"
+          }
+        ],
+        "address": [
+          {
+            "use": "work",
+            "type": "postal",
+            "line": [
+              "9 Plum Road"
+            ],
+            "city": "Greenville",
+            "district": "Montcalm County",
+            "state": "MI",
+            "postalCode": "48838"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1987-08-03",
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "MD",
+                      "display": "Medical License number"
+                    }
+                  ]
+                },
+                "system": "http://state.gov/fhir/medical-license",
+                "value": "LIC-2857"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.7",
+                  "code": "MD",
+                  "display": "Doctor of Medicine"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2857"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2858",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "Practitioner-2858",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://mihin.org/fhir/extension/taxonomy",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nucc.org/provider-taxonomy",
+                  "code": "207X00000X",
+                  "display": "Orthopaedic Surgery"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000002858"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "PRN",
+                  "display": "Provider number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999992858"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "c759585274b14b8693564a946d300bc5"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Brewer",
+            "given": [
+              "Nora",
+              "Ibarra"
+            ],
+            "suffix": [
+              "MD"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "586-555-1241",
+            "use": "work"
+          },
+          {
+            "system": "phone",
+            "value": "586-555-7979",
+            "use": "mobile"
+          }
+        ],
+        "address": [
+          {
+            "use": "work",
+            "type": "postal",
+            "line": [
+              "177 W Fifth Court"
+            ],
+            "city": "Greenville",
+            "district": "Montcalm County",
+            "state": "MI",
+            "postalCode": "48838"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1988-09-09",
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "MD",
+                      "display": "Medical License number"
+                    }
+                  ]
+                },
+                "system": "http://state.gov/fhir/medical-license",
+                "value": "LIC-2858"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.7",
+                  "code": "MD",
+                  "display": "Doctor of Medicine"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2858"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2859",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "Practitioner-2859",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://mihin.org/fhir/extension/taxonomy",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nucc.org/provider-taxonomy",
+                  "code": "208000000X",
+                  "display": "Pediatrics"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000002859"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "PRN",
+                  "display": "Provider number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999992859"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "532e190e25484c5fb02438e68bf79e7a"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Benton",
+            "given": [
+              "Deborah",
+              "Elliott"
+            ],
+            "suffix": [
+              "MD"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "616-555-2586",
+            "use": "work"
+          },
+          {
+            "system": "phone",
+            "value": "616-555-8452",
+            "use": "mobile"
+          }
+        ],
+        "address": [
+          {
+            "use": "work",
+            "type": "postal",
+            "line": [
+              "384 S Danube Street",
+              "Unit 15"
+            ],
+            "city": "Greenville",
+            "district": "Montcalm County",
+            "state": "MI",
+            "postalCode": "48838"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1965-06-17",
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "MD",
+                      "display": "Medical License number"
+                    }
+                  ]
+                },
+                "system": "http://state.gov/fhir/medical-license",
+                "value": "LIC-2859"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.7",
+                  "code": "MD",
+                  "display": "Doctor of Medicine"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2859"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2860",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "Practitioner-2860",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://mihin.org/fhir/extension/taxonomy",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nucc.org/provider-taxonomy",
+                  "code": "2086X0206X",
+                  "display": "Surgical Oncology"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000002860"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "PRN",
+                  "display": "Provider number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999992860"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "a44c044796d94e4ba079458e99d04ae3"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Le",
+            "given": [
+              "Shannon",
+              "Benson"
+            ],
+            "suffix": [
+              "MD"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "313-555-4271",
+            "use": "work"
+          },
+          {
+            "system": "phone",
+            "value": "313-555-8318",
+            "use": "mobile"
+          }
+        ],
+        "address": [
+          {
+            "use": "work",
+            "type": "postal",
+            "line": [
+              "597 S First Court"
+            ],
+            "city": "Greenville",
+            "district": "Montcalm County",
+            "state": "MI",
+            "postalCode": "48838"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1986-03-11",
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "MD",
+                      "display": "Medical License number"
+                    }
+                  ]
+                },
+                "system": "http://state.gov/fhir/medical-license",
+                "value": "LIC-2860"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.7",
+                  "code": "MD",
+                  "display": "Doctor of Medicine"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2860"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2861",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "Practitioner-2861",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://mihin.org/fhir/extension/taxonomy",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nucc.org/provider-taxonomy",
+                  "code": "207RP1001X",
+                  "display": "Pulmonary Disease"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000002861"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "PRN",
+                  "display": "Provider number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999992861"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "866110ce7dc143c8b884294cfc4c7811"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Jenkins",
+            "given": [
+              "Shelly",
+              "Flynn"
+            ],
+            "suffix": [
+              "MD"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "616-555-3913",
+            "use": "work"
+          },
+          {
+            "system": "phone",
+            "value": "616-555-7927",
+            "use": "mobile"
+          }
+        ],
+        "address": [
+          {
+            "use": "work",
+            "type": "postal",
+            "line": [
+              "211 Oak Street"
+            ],
+            "city": "Greenville",
+            "district": "Montcalm County",
+            "state": "MI",
+            "postalCode": "48838"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1992-01-02",
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "MD",
+                      "display": "Medical License number"
+                    }
+                  ]
+                },
+                "system": "http://state.gov/fhir/medical-license",
+                "value": "LIC-2861"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.7",
+                  "code": "MD",
+                  "display": "Doctor of Medicine"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2861"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2862",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "Practitioner-2862",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://mihin.org/fhir/extension/taxonomy",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nucc.org/provider-taxonomy",
+                  "code": "207RX0202X",
+                  "display": "Medical Oncology"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000002862"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "PRN",
+                  "display": "Provider number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999992862"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "5cdb3888482449d49cbda083b81a348c"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Bender",
+            "given": [
+              "Kristina",
+              "Oconnell"
+            ],
+            "suffix": [
+              "MD"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "616-555-8190",
+            "use": "work"
+          },
+          {
+            "system": "phone",
+            "value": "616-555-9427",
+            "use": "mobile"
+          }
+        ],
+        "address": [
+          {
+            "use": "work",
+            "type": "postal",
+            "line": [
+              "9 Main Street"
+            ],
+            "city": "Greenville",
+            "district": "Montcalm County",
+            "state": "MI",
+            "postalCode": "48838"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1952-04-08",
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "MD",
+                      "display": "Medical License number"
+                    }
+                  ]
+                },
+                "system": "http://state.gov/fhir/medical-license",
+                "value": "LIC-2862"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.7",
+                  "code": "MD",
+                  "display": "Doctor of Medicine"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2862"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2863",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "Practitioner-2863",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://mihin.org/fhir/extension/taxonomy",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nucc.org/provider-taxonomy",
+                  "code": "207V00000X",
+                  "display": "Obstetrics & Gynecology"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000002863"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "PRN",
+                  "display": "Provider number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999992863"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "4a9c9d8786ab4656bea0226985a25327"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Frost",
+            "given": [
+              "Henry",
+              "Moon"
+            ],
+            "suffix": [
+              "MD"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "810-555-9505",
+            "use": "work"
+          },
+          {
+            "system": "phone",
+            "value": "810-555-4854",
+            "use": "mobile"
+          }
+        ],
+        "address": [
+          {
+            "use": "work",
+            "type": "postal",
+            "line": [
+              "249 NW Colorado Place"
+            ],
+            "city": "Greenville",
+            "district": "Montcalm County",
+            "state": "MI",
+            "postalCode": "48838"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1975-07-28",
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "MD",
+                      "display": "Medical License number"
+                    }
+                  ]
+                },
+                "system": "http://state.gov/fhir/medical-license",
+                "value": "LIC-2863"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.7",
+                  "code": "MD",
+                  "display": "Doctor of Medicine"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2863"
+      }
+    },
+    {
+      "fullUrl": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2864",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "Practitioner-2864",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple example with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2019 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://mihin.org/fhir/extension/taxonomy",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nucc.org/provider-taxonomy",
+                  "code": "207ZP0105X",
+                  "display": "Clinical Pathology/Laboratory Medicine"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000002864"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "code": "PRN",
+                  "display": "Provider number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999992864"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "9f1a1bd7a5884f27aaa71dac4e17b694"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Payne",
+            "given": [
+              "Alma",
+              "Sampson"
+            ],
+            "suffix": [
+              "MD"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "734-555-5525",
+            "use": "work"
+          },
+          {
+            "system": "phone",
+            "value": "734-555-1324",
+            "use": "mobile"
+          }
+        ],
+        "address": [
+          {
+            "use": "work",
+            "type": "postal",
+            "line": [
+              "866 Oak Street",
+              "Unit 11"
+            ],
+            "city": "Greenville",
+            "district": "Montcalm County",
+            "state": "MI",
+            "postalCode": "48838"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1968-10-27",
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "MD",
+                      "display": "Medical License number"
+                    }
+                  ]
+                },
+                "system": "http://state.gov/fhir/medical-license",
+                "value": "LIC-2864"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.7",
+                  "code": "MD",
+                  "display": "Doctor of Medicine"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "http://localhost:8080/cqf-ruler/R4/Practitioner/Practitioner-2864"
+      }
+    }
+  ]
+}
