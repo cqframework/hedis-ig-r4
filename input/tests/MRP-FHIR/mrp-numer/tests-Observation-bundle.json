@@ -1,0 +1,32 @@
+{
+  "resourceType": "Bundle",
+  "id": "tests-Observation-bundle",
+  "type": "transaction",
+  "entry": [ {
+    "resource": {
+      "resourceType": "Observation",
+      "id": "mrp-numer",
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "430193006"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/mrp-numer"
+      },
+      "effectiveDateTime": "2018-12-02T14:19:00-04:00",
+      "performer": [ {
+        "reference": "Practitioner/mrp-numer"
+      } ],
+      "valueQuantity": {
+        "value": 5.0
+      }
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Observation/mrp-numer"
+    }
+  } ]
+}
